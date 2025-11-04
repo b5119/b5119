@@ -1,6 +1,6 @@
 <!-- Typing SVG header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=000000&background=FFFFFF00&center=true&vCenter=true&lines=Hello,+I'm+Frank+(Kenpachi+Zaraki);Software+Engineer+|+Web+Dev+|+Anime+Enthusiast" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=000000&background=FFFFFF00&center=true&vCenter=true&lines=Hello,+I'm+Frank+Bwalya;Software+Engineer+|+Web+Dev+|+Anime+Enthusiast" alt="typing"/>
 </p>
 
 <p align="center">
@@ -8,7 +8,7 @@
   <img src="assets/demo.gif" alt="demo" width="720"/>
 </p>
 
-# Hi — I’m Frank (Kenpachi Zaraki) 👋
+# Hi — I’m Frank Bwalya 👋
 
 **Passionate software engineer** focused on Web Development, Research, and HCI. I build full-stack apps (Angular + FastAPI), automation tools, and developer utilities.
 
