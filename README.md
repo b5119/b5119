@@ -1,6 +1,6 @@
 <!-- Typing SVG header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=false&width=600&height=80&lines=Hi,+I'm+Frank+Bwalya+👋;Software+Engineer+%7C+Web+Developer;Python+Enthusiast+%7C+Lifelong+Learner" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=000000&background=FFFFFF00&center=true&vCenter=true&multiline=false&width=700&height=80&lines=Hello,+I'm+Frank+Bwalya;Software+Engineer+%7C+Web+Dev+%7C+Mobile+Dev;Python+%26+Dart+Enthusiast+%7C+Lifelong+Learner" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -13,12 +13,12 @@
 
 ## 👨‍💻 About Me
 
-**Passionate software engineer** focused on **Web Development**, **Research**, and **Human-Computer Interaction (HCI)**. I enjoy building practical solutions and learning new technologies through hands-on projects.
+**Passionate software engineer** focused on **Web Development**, **Mobile Development**, **Research**, and **Human-Computer Interaction (HCI)**. I enjoy building practical solutions and learning new technologies through hands-on projects.
 
-- 🔭 Currently working on: **Angular + FastAPI starter kit** for full-stack development
+- 🔭 Currently working on: **Mobile applications with Dart/Flutter + FastAPI backend**
 - 🌱 Learning: **DevOps (CI/CD)** & **production deployment patterns**
-- 🐍 Favorite language: **Python** for automation, web scraping, and CLI tools
-- 💡 Interests: **Web development**, **automation**, **developer tools**, and **continuous learning**
+- 🐍 Favorite languages: **Python** for automation & backend, **Dart** for mobile apps
+- 💡 Interests: **Mobile development**, **web development**, **automation**, **developer tools**, and **continuous learning**
 - 📍 Based in: **Lusaka, Zambia**
 
 ---
@@ -41,6 +41,18 @@
       <p><a href="https://github.com/b5119/-Python-Loops-Learning">View Repository →</a></p>
     </td>
     <td width="50%" valign="top">
+      <h3>📱 Dart/Flutter + FastAPI Apps</h3>
+      <p><strong>In Progress</strong> • Mobile applications with Python backend</p>
+      <p>
+        • Cross-platform mobile apps<br/>
+        • FastAPI REST API backend<br/>
+        • Modern mobile UI/UX<br/>
+        • Coming soon!
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🔧 Python CLI Tools</h3>
       <p><strong>Utilities</strong> • Small command-line tools for daily use</p>
       <p>
@@ -50,8 +62,6 @@
       </p>
       <p><em>Check pinned repos for direct link</em></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🕷️ Python Web Scraping Projects</h3>
       <p><strong>Web Automation</strong> • Scraping patterns & polite bots</p>
@@ -62,16 +72,6 @@
       </p>
       <p><em>Check pinned repos for direct link</em></p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Angular + FastAPI Starter</h3>
-      <p><strong>In Progress</strong> • Full-stack web application template</p>
-      <p>
-        • Modern frontend with Angular<br/>
-        • Python backend with FastAPI<br/>
-        • Production-ready setup<br/>
-        • Coming soon!
-      </p>
-    </td>
   </tr>
 </table>
 
@@ -81,14 +81,16 @@
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Frameworks & Libraries
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 ### Tools & Platforms
@@ -131,7 +133,8 @@ class FrankBwalya:
         
     def current_projects(self):
         return [
-            "Building Angular + FastAPI starter kit",
+            "Building mobile apps with Dart/Flutter",
+            "Creating FastAPI backends for mobile apps",
             "Learning DevOps and CI/CD pipelines",
             "Creating Python learning resources",
             "Contributing to open source"
@@ -139,14 +142,19 @@ class FrankBwalya:
     
     def tech_stack(self):
         return {
+            "mobile": ["Dart", "Flutter"],
             "frontend": ["Angular", "React", "HTML/CSS", "JavaScript"],
             "backend": ["Python", "FastAPI", "Node.js"],
             "tools": ["Git", "VS Code", "Linux", "GitHub Desktop"],
             "learning": ["Docker", "CI/CD", "Cloud Deployment"]
         }
     
-    def fun_fact(self):
-        return "I love turning coffee into code! ☕→💻"
+    def favorite_quote(self):
+        return (
+            "Knowledge is a paradox. The more we understand, "
+            "the more we realize the vastness of our ignorance."
+            "\n— Viktor, Arcane"
+        )
 ```
 
 ---
@@ -201,7 +209,9 @@ I'm always interested in collaborating on projects, discussing technology, or ju
 
 ## 💭 Quote I Live By
 
-> *"The best way to predict the future is to create it."* - Peter Drucker
+> *"Knowledge is a paradox. The more we understand, the more we realize the vastness of our ignorance."*
+> 
+> **— Viktor, Arcane**
 
 ---
 
