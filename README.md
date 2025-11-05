@@ -13,7 +13,7 @@
 
 ## 👨‍💻 About Me
 
-**Passionate software engineer** focused on **Web Development**, **Mobile Development**, **Research**, and **Human-Computer Interaction (HCI)**. I enjoy building practical solutions and learning new technologies through hands-on projects.
+**Passionate software engineering student** focused on **Web Development**, **Mobile Development**, **Research**, and **Human-Computer Interaction (HCI)**. I enjoy building practical solutions and learning new technologies through hands-on projects.
 
 - 🔭 Currently working on: **Mobile applications with Dart/Flutter + FastAPI backend**
 - 🌱 Learning: **DevOps (CI/CD)** & **production deployment patterns**
