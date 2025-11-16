@@ -15,10 +15,10 @@
 
 **Passionate software engineering student** focused on **Web Development**, **Mobile Development**, **Research**, and **Human-Computer Interaction (HCI)**. I enjoy building practical solutions and learning new technologies through hands-on projects.
 
-- 🔭 Currently working on: **Mobile applications with Dart/Flutter + FastAPI backend**
+- 🔭 Currently working on: **Flask API Dashboard + Flutter mobile apps**
 - 🌱 Learning: **DevOps (CI/CD)** & **production deployment patterns**
 - 🐍 Favorite languages: **Python** for automation & backend, **Dart** for mobile apps
-- 💡 Interests: **Mobile development**, **web development**, **automation**, **developer tools**, and **continuous learning**
+- 💡 Interests: **Mobile development**, **APIs**, **web development**, **automation**, **developer tools**
 - 📍 Based in: **Lusaka, Zambia**
 
 ---
@@ -30,15 +30,16 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🐍 Python Loops Learning</h3>
-      <p><strong>Latest Project</strong> • A collection of Python loop examples and best practices</p>
+      <h3>🧩 Flask API Dashboard</h3>
+      <p><strong>Latest Project</strong> • A modular multi-API backend system with Flask</p>
       <p>
-        • Number guessing games<br/>
-        • Even/odd counters<br/>
-        • Real-world timer scenarios<br/>
-        • Beginner-friendly with improvements
+        • Application Factory Pattern<br/>
+        • Modular API Blueprints (News, Weather, Crypto, GitHub)<br/>
+        • SQLAlchemy + Migrations<br/>
+        • Responsive UI with Glassmorphism<br/>
+        • Extensible architecture for custom integrations
       </p>
-      <p><a href="https://github.com/b5119/-Python-Loops-Learning">View Repository →</a></p>
+      <p><a href="https://github.com/b5119/flask-api-dashboard">View Repository →</a></p>
     </td>
     <td width="50%" valign="top">
       <h3>📱 Dart/Flutter + FastAPI Apps</h3>
@@ -88,6 +89,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Frameworks & Libraries
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
@@ -104,8 +106,8 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" height="170" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8&hide=jupyter%20notebook" height="170" alt="Top Languages"/>
 </p>
 
 <p align="center">
@@ -133,10 +135,10 @@ class FrankBwalya:
         
     def current_projects(self):
         return [
+            "Flask API Dashboard",
             "Building mobile apps with Dart/Flutter",
-            "Creating FastAPI backends for mobile apps",
+            "FastAPI backends for mobile apps",
             "Learning DevOps and CI/CD pipelines",
-            "Creating Python learning resources",
             "Contributing to open source"
         ]
     
@@ -144,7 +146,7 @@ class FrankBwalya:
         return {
             "mobile": ["Dart", "Flutter"],
             "frontend": ["Angular", "React", "HTML/CSS", "JavaScript"],
-            "backend": ["Python", "FastAPI", "Node.js"],
+            "backend": ["Python", "FastAPI", "Flask", "Node.js"],
             "tools": ["Git", "VS Code", "Linux", "GitHub Desktop"],
             "learning": ["Docker", "CI/CD", "Cloud Deployment"]
         }
@@ -161,52 +163,43 @@ class FrankBwalya:
 
 ## 🚀 How to Run My Projects
 
-Most of my repositories include detailed README files with setup instructions. Here's a typical workflow:
-
 ```bash
 # Clone the repository
 git clone https://github.com/b5119/repository-name.git
-
-# Navigate to the project directory
 cd repository-name
 
-# Install dependencies (if applicable)
-pip install -r requirements.txt
+# Install dependencies
+pip install -r requirements.txt  # Python projects
 # or
-npm install
+npm install  # JavaScript projects
 
 # Run the project
-python main.py
+python main.py  # Python
 # or
-./run_example.sh
+npm start  # JavaScript
 ```
-
-Each project's README contains specific instructions tailored to that project.
 
 ---
 
 ## 🌟 Learning Journey
 
-I believe in **learning by doing**. My repositories showcase:
+I believe in learning by doing:
 
-- ✅ **Hands-on projects** - Real code solving real problems
-- ✅ **Best practices** - Following industry standards
-- ✅ **Documentation** - Clear READMEs and comments
-- ✅ **Continuous improvement** - Regular updates and refactoring
-- ✅ **Community sharing** - Open source for others to learn
+- ✅ Real-world projects
+- ✅ Best practices
+- ✅ Clear documentation
+- ✅ Continuous improvement
+- ✅ Open-source collaboration
 
 ---
 
 ## 📫 Let's Connect!
 
-I'm always interested in collaborating on projects, discussing technology, or just having a chat about software development!
-
-- 📧 **Email:** [bwalyafrank61@gmail.com](mailto:bwalyafrank61@gmail.com)
-- 💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)
-- 🐙 **GitHub:** [@b5119](https://github.com/b5119)
+📧 **Email:** bwalyafrank61@gmail.com  
+💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)  
+🐙 **GitHub:** [@b5119](https://github.com/b5119)
 
 ---
-
 ## 💭 Quote I Live By
 
 > *"Knowledge is a paradox. The more we understand, the more we realize the vastness of our ignorance."*
@@ -214,7 +207,6 @@ I'm always interested in collaborating on projects, discussing technology, or ju
 > **— Viktor, Arcane**
 
 ---
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer"/>
 </p>
