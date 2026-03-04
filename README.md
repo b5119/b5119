@@ -97,6 +97,7 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 ### Infrastructure & Tooling
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -172,7 +173,57 @@ class FrankBwalya:
 | **Depth over breadth** | Master one layer deeply before moving up the stack |
 | **Refine, don't restart** | Return to old systems with new understanding |
 | **Architecture is invisible** | Good design is felt, not seen — until it breaks |
-| **Build to last** | Code that your future self won't curse |
+| **Geography is not a constraint** | The quality of thinking is not determined by location |
+
+---
+
+## ◈ 2026 Engineering Growth & Collaboration
+
+### Technical Growth Areas
+
+I am actively deepening expertise in:
+
+- **Distributed systems principles** — consistency models, fault tolerance, replication strategies
+- **Scalable backend design** — service boundaries, load patterns, API contract discipline
+- **Smart contract security** — audit patterns, invariant testing, formal verification concepts
+- **Containerization & deployment** — Docker, CI/CD pipeline design, environment management
+- **Test-driven backend development** — integration testing, contract testing, coverage discipline
+- **Data modeling for decision systems** — schema design that reflects domain logic, not just storage
+
+The objective is not tool accumulation. It is **architectural fluency**.
+
+### Collaboration & Internship Intent
+
+I am actively seeking:
+
+- **Backend engineering internships** — production exposure across real system constraints
+- **Distributed systems research collaboration** — theory applied to implementation
+- **Blockchain infrastructure projects** — smart contract ecosystems with genuine use cases
+- **Open-source backend contributions** — meaningful PRs, not surface-level fixes
+
+If you are building structured, scalable systems — I am interested in contributing seriously, not superficially.
+
+📧 **bwalyafrank61@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/frank-bwalya-64b124275)
+
+### Research Direction
+
+My long-term interest areas converge around systems that operate under real-world constraints:
+
+- **Trust modeling in decentralized environments** — what replaces institutional guarantees at the protocol level
+- **System reliability under constrained infrastructure** — designing for contexts where resources and margin are limited
+- **Backend architecture for emerging markets** — systems built for conditions, not assumptions
+- **Data-informed decision systems** — where analytical modeling drives outcomes, not just dashboards
+
+I am particularly interested in bridging **formal system design principles** with **production-level implementation** — closing the gap between theory and what actually ships.
+
+### Forward Vision
+
+```
+Application Builder  →  Backend Architect  →  Distributed Systems Engineer  →  System Architect
+       ✅                    [current]                 [target: 2026–27]              [horizon]
+```
+
+Not just code that runs. **Systems that endure.**
 
 ---
 
@@ -190,7 +241,7 @@ class FrankBwalya:
 >
 > **— Viktor, Arcane**
 
-That's not discouraging. That's the whole point.
+That isn't discouragement. It's the only honest description of what engineering actually is — a permanent state of knowing enough to understand how much remains. The engineers worth learning from aren't the ones who know the most. They're the ones who've stayed long enough to understand *how much they don't know* — and kept building anyway.
 
 ---
 
@@ -205,5 +256,5 @@ That's not discouraging. That's the whole point.
 </p>
 
 <p align="center">
-  <sub>Last updated: 2026 · Built with deliberate intent, not just enthusiasm ☕</sub>
+  <sub>Last updated: 2026 · Lusaka, Zambia · Built with deliberate intent, not just enthusiasm ☕</sub>
 </p>
