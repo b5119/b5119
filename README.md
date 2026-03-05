@@ -13,9 +13,14 @@
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF"/>
 </p>
 
+<!-- Scrolling marquee strip -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=false&width=750&height=30&lines=Python+%7C+Dart+%7C+Solidity+%7C+JavaScript+%7C+TypeScript+%7C+SQL+%7C+HTML+%7C+CSS+%7C+Flask+%7C+FastAPI+%7C+Flutter+%7C+React+%7C+Hardhat+%7C+Node.js+%7C+Docker+%7C+Linux+%7C+Git+%7C+GitHub+Actions" alt="Stack cycling"/>
+</p>
+
 ---
 
-## ◈ The Philosophy
+## ◈ The Mindset
 
 > Most developers build features. I'm learning to design **systems**.
 
@@ -80,7 +85,20 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 
 ## ◈ Technical Stack
 
+<!-- Animated skill icons grid -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,dart,js,ts,solidity,html,css,sql&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=flask,fastapi,flutter,react,angular,nodejs,hardhat,express&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,githubactions,gcp,postgres&theme=dark&perline=8" />
+</p>
+
+<br/>
+
 ### Core Languages
+
+<!-- Scrolling marquee of language badges -->
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
@@ -90,7 +108,12 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
+</div>
+
 ### Frameworks & Runtimes
+
+<div align="center">
+
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
@@ -99,16 +122,31 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
+</div>
+
 ### Infrastructure & Tooling
+
+<div align="center">
+
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</div>
 
 ### Learning / Integrating in 2026
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD_Pipelines-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+<div align="center">
+
 ![Cloud](https://img.shields.io/badge/Cloud_Deployment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+</div>
 
 ---
 
@@ -165,15 +203,16 @@ class FrankBwalya:
 
 ---
 
-## ◈ What Good Engineering Looks Like to Me
+## ◈ WakaTime Coding Activity
 
-| Principle | What It Means in Practice |
-|-----------|---------------------------|
-| **Structure before features** | Design the skeleton before writing a single route |
-| **Depth over breadth** | Master one layer deeply before moving up the stack |
-| **Refine, don't restart** | Return to old systems with new understanding |
-| **Architecture is invisible** | Good design is felt, not seen — until it breaks |
-| **Geography is not a constraint** | The quality of thinking is not determined by location |
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=b5119&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&layout=compact&langs_count=10" alt="WakaTime Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://wakatime.com/badge/user/b5119.svg?style=for-the-badge" alt="WakaTime total"/>
+</p>
+
 
 ---
 
@@ -231,7 +270,7 @@ Not just code that runs. **Systems that endure.**
 
 📧 **Email:** bwalyafrank61@gmail.com  
 💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)  
-🐙 **GitHub:** [@b5119](https://github.com/b5119)
+
 
 ---
 
