@@ -13,11 +13,6 @@
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF"/>
 </p>
 
-<!-- Scrolling marquee strip -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=2000&pause=500&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=false&width=750&height=30&lines=Python+%7C+Dart+%7C+Solidity+%7C+JavaScript+%7C+TypeScript+%7C+SQL+%7C+HTML+%7C+CSS+%7C+Flask+%7C+FastAPI+%7C+Flutter+%7C+React+%7C+Hardhat+%7C+Node.js+%7C+Docker+%7C+Linux+%7C+Git+%7C+GitHub+Actions" alt="Stack cycling"/>
-</p>
-
 ---
 
 ## ◈ The Mindset
