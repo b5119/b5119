@@ -200,7 +200,6 @@ class FrankBwalya:
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=b5119&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&layout=compact&langs_count=10" alt="WakaTime Stats"/>
 </p>
-
 <p align="center">
   <img src="https://wakatime.com/badge/user/b5119.svg?style=for-the-badge" alt="WakaTime total"/>
 </p>
