@@ -180,6 +180,7 @@ class FrankBwalya:
 ```
 
 
+---
 ## ◈ GitHub Statistics
 
 <p align="center">
