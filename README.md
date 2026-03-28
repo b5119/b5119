@@ -10,9 +10,6 @@
   <a href="mailto:bwalyafrank61@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://github.com/b5119">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"/>
 </p>
 
@@ -252,17 +249,8 @@ Not just code that runs. **Systems that endure.**
 
 ## ◈ Let's Connect
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/frank-bwalya-64b124275">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:bwalyafrank61@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://github.com/b5119">
-    <img src="https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+📧 **Email:** bwalyafrank61@gmail.com  
+💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)
 
 ---
 
