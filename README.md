@@ -1,4 +1,4 @@
-<!-- Header -->
+# <!-- Header -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Backend+Architect+in+Training+%7C+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
 </p>
@@ -10,7 +10,13 @@
   <a href="mailto:bwalyafrank61@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF"/>
+  <a href="https://github.com/b5119">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"/>
 </p>
 
 ---
@@ -80,7 +86,6 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 
 ## ◈ Technical Stack
 
-<!-- Animated skill icons grid -->
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,dart,js,ts,solidity,html,css,sql&theme=dark&perline=8" /><br/>
   <img src="https://skillicons.dev/icons?i=flask,fastapi,flutter,react,angular,nodejs,hardhat,express&theme=dark&perline=8" /><br/>
@@ -91,7 +96,6 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 
 ### Core Languages
 
-<!-- Scrolling marquee of language badges -->
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -179,14 +183,14 @@ class FrankBwalya:
         return "Not 'how do I build this?' — but 'how should this be designed?'"
 ```
 
-
 ---
+
 ## ◈ GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true" width="420"/>
+  <img src="https://github-readme-stats-l5asftwhj-geek-hub.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=github" width="420"/>
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&hide=jupyter%20notebook" width="320"/>
+  <img src="https://github-readme-stats-l5asftwhj-geek-hub.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&hide=jupyter%20notebook" width="320"/>
 </p>
 
 <p align="center">
@@ -196,7 +200,6 @@ class FrankBwalya:
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=b5119&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="750"/>
 </p>
-
 
 ---
 
@@ -252,9 +255,17 @@ Not just code that runs. **Systems that endure.**
 
 ## ◈ Let's Connect
 
-📧 **Email:** bwalyafrank61@gmail.com  
-💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)  
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/frank-bwalya-64b124275">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:bwalyafrank61@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Reach_Out-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/b5119">
+    <img src="https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
