@@ -1,4 +1,4 @@
-# <!-- Header -->
+<!-- Header -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Distributed+Systems+Engineer+in+Training+%7C+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
 </p>
