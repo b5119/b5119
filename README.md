@@ -31,59 +31,44 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ What I'm Actually Working On
 
-### `01` — GPA Analytics System *(In Progress)*
-> *Turning a calculator into a decision-support system*
+### `01` — Nexus — Personal Device Mesh *(Active)*
+> *Your devices, one filesystem — nothing copied until it's read*
 
-Most GPA tools compute a number. This one asks: **what does that number mean for your future?**
+A **personal device mesh** built from scratch in **Rust**: mount your phone's storage on your laptop as a real, lazy-loaded FUSE filesystem. `ls`, `cat`, `cp` all behave like a local directory — but nothing transfers until you actually read it.
 
-Designing a mobile-first academic analytics tool that models:
-- **Weighted performance tracking** across semesters and credit-hours
-- **Degree classification risk assessment** — early warnings before it's too late
-- **Trend projection** using statistical inference, not just averages
-- **Career-sector mapping** based on performance thresholds and field requirements
+- **Lazy FUSE virtualization** — remote files appear local; bytes move on demand, not on mount
+- **Typed gRPC transport** — a `FileService` contract (ListDir / Stat / ReadFile) over Tonic + Prost
+- **Cross-compiled to Android** — `cargo-ndk`, arm64-v8a; the host role runs on-device
+- **Hardware-verified** — byte-exact reads across a real phone → laptop mount, including chunk-boundary offset reads
 
-Stack: `Flutter` · `FastAPI` · `Statistical Modeling`  
-Focus: Data architecture that informs, not just reports.
-
----
-
-### `02` — ChainBa — Decentralized Lending Infrastructure *(Active)*
-> *Understanding trust when there's no intermediary*
-
-A modular **Ethereum-based micro-lending protocol** built to understand how decentralized financial systems actually work at the contract level:
-
-- **Smart contract factory pattern** — deploy isolated loan instances per borrower
-- **On-chain reputation scoring** — trust built through history, not identity
-- **Structured contract lifecycle** — proposal → fund → repay → close, enforced in code
-- **Full-stack dApp integration** — bridging contract logic to a real frontend
-
-Stack: `Solidity` · `Hardhat` · `Ethers.js` · `React`  
-Focus: Trust modeling in zero-trust environments.
+Stack: `Rust` · `Tokio` · `gRPC` · `Protobuf` · `FUSE`  
+Focus: Systems programming where correctness is measured in bytes.  
+[→ View Repository](https://github.com/b5119/nexus02)
 
 ---
 
-### `03` — API Hub — Modular Flask Dashboard *(Live)*
-> *Clean architecture is invisible until it's not*
+### `02` — CDF SigTrace — Blockchain Accountability Framework *(In Progress)*
+> *Making public money provable, not just trackable*
 
-A **multi-API integration backend** built as a deliberate exercise in structured Flask design:
+A **blockchain-anchored accountability framework** for Zambia's Constituency Development Fund and government procurement — two systems, **SigTrace** (procurement contract integrity) and **CDF Pulse** (field-delivery verification), joined by a monitor that flags ghost projects.
 
-- **Application Factory Pattern** — no circular imports, clean boot sequence
-- **Blueprint Modularization** — News, Weather, Crypto, GitHub as isolated modules
-- **Service-Layer Abstraction** — logic never bleeds into routes
-- **Environment-based configuration** — dev/staging/prod separation from day one
-- **Glassmorphism UI** — because architecture can look good too
+- **Dual-ledger anchoring** — Hyperledger Fabric for institutional membership, Polygon for citizen-verifiable confirmations
+- **Privacy by architecture** — personal data stays off-chain; only hashes and non-personal metadata are written
+- **Risk signals, not verdicts** — every analytical output is a flag requiring human review, never a determination of wrongdoing
+- **Offline-first field app** — CDF Pulse PWA for delivery verification where connectivity isn't guaranteed
 
-Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`  
-[→ View Repository](https://github.com/b5119/flask-api-dashboard)
+Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabric` · `Polygon` · `React`  
+Focus: Civic-tech transparency under real infrastructure constraints.  
+[→ View Repository](https://github.com/b5119/cdf-sigtrace-zambia)
 
 ---
 
 ## ◈ Technical Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,dart,js,ts,solidity,html,css,sql&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=flask,fastapi,flutter,react,angular,nodejs,hardhat,express&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,linux,vscode,docker,githubactions,gcp,postgres&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=rust,python,dart,ts,js,solidity,html,css&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,flutter,react,tailwind,nodejs,hardhat,vite&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,docker,kubernetes,git,github,githubactions,linux,vscode&theme=dark&perline=8" />
 </p>
 
 <br/>
@@ -92,28 +77,41 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 
 <div align="center">
 
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 </div>
 
-### Frameworks & Runtimes
+### Systems & Backend
 
 <div align="center">
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Tokio](https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Protobuf](https://img.shields.io/badge/Protobuf-EA4335?style=for-the-badge&logo=protobuf&logoColor=white)
+![FUSE](https://img.shields.io/badge/FUSE-EE0000?style=for-the-badge&logo=linux&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+### Blockchain & Frontend
+
+<div align="center">
+
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Hyperledger](https://img.shields.io/badge/Hyperledger_Fabric-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white)
+![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 </div>
 
@@ -121,12 +119,11 @@ Stack: `Python` · `Flask` · `SQLAlchemy` · `HTML/CSS`
 
 <div align="center">
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 </div>
 
@@ -161,10 +158,10 @@ class FrankBwalya:
     ]
 
     engineering_focus = {
-        "backend":     ["Flask", "FastAPI", "service-layer design", "API orchestration"],
-        "blockchain":  ["Solidity", "Hardhat", "smart contract factories", "dApp integration"],
-        "mobile":      ["Flutter", "Dart", "cross-platform architecture"],
-        "data":        ["academic analytics", "statistical modeling", "decision systems"],
+        "systems":     ["Rust", "Tokio", "gRPC", "FUSE", "cross-compilation"],
+        "backend":     ["FastAPI", "Flask", "service-layer design", "API orchestration"],
+        "blockchain":  ["Solidity", "Hyperledger Fabric", "Polygon", "on-chain anchoring"],
+        "mobile":      ["Flutter", "Dart", "Android (cargo-ndk)", "offline-first PWAs"],
         "devops":      ["Docker", "CI/CD", "environment-based configuration"],
     }
 
@@ -193,6 +190,14 @@ class FrankBwalya:
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=b5119&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="750"/>
+</p>
+
+---
+
+## ◈ Trophy Case
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=b5119&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&title=Commits,PullRequest,Repositories,Stars,Followers,Experience,MultipleLang" alt="GitHub Trophies"/>
 </p>
 
 ---
@@ -236,12 +241,28 @@ My long-term interest areas converge around systems that operate under real-worl
 
 I am particularly interested in bridging **formal system design principles** with **production-level implementation** — closing the gap between theory and what actually ships.
 
-### Forward Vision
+### Forward Vision — The Roadmap
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=750&color=58A6FF&center=true&vCenter=true&width=820&height=50&lines=%E2%9C%85+Application+Builder+%E2%80%94+shipped+systems+that+run;%F0%9F%94%B5+Backend+Architect+%E2%80%94+service+boundaries+%26+API+discipline+%5Bnow%5D;%E2%AC%9C+Distributed+Systems+Engineer+%E2%80%94+consistency%2C+fault+tolerance;%F0%9F%8E%AF+Systems+Architect+%E2%80%94+design+the+structures%2C+not+just+the+apps" alt="Roadmap"/>
+</p>
+
+```mermaid
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0d1117','primaryBorderColor':'#58a6ff','lineColor':'#58a6ff','primaryTextColor':'#c9d1d9'}}}%%
+flowchart LR
+    A([✅ Application Builder]):::done --> B([🔵 Backend Architect<br/>· you are here ·]):::now
+    B --> C([⬜ Distributed Systems<br/>Engineer · 2026–27]):::next
+    C --> D([🎯 Systems Architect<br/>· horizon ·]):::goal
+    classDef done fill:#0d1117,stroke:#2ea043,color:#c9d1d9,stroke-width:2px;
+    classDef now fill:#0d1117,stroke:#58a6ff,color:#58a6ff,stroke-width:3px;
+    classDef next fill:#0d1117,stroke:#30363d,color:#8b949e,stroke-width:2px;
+    classDef goal fill:#0d1117,stroke:#bc8cff,color:#bc8cff,stroke-width:2px;
 ```
-Application Builder  →  Backend Architect  →  Distributed Systems Engineer  →  System Architect
-       ✅                    [current]                 [target: 2026–27]              [horizon]
-```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Phase_progress-Backend_Architect-58A6FF?style=for-the-badge&labelColor=0d1117" alt="progress"/>
+  <img src="https://geps.dev/progress/55?dangerColor=58a6ff&warningColor=58a6ff&successColor=58a6ff" alt="55%"/>
+</p>
 
 Not just code that runs. **Systems that endure.**
 
