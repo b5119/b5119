@@ -1,6 +1,6 @@
 # <!-- Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Backend+Architect+in+Training+%7C+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Distributed+Systems+Engineer+in+Training+%7C+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -151,8 +151,8 @@ class FrankBwalya:
 
     trajectory = [
         "application-level development",     # ✅ done
-        "backend architecture & patterns",   # ← currently here
-        "distributed systems design",        # ⬜ in progress
+        "backend architecture & patterns",   # ✅ done
+        "distributed systems design",        # ← currently here
         "smart contract ecosystems",         # ⬜ in progress
         "full system architecture",          # 🎯 destination
     ]
@@ -244,25 +244,31 @@ I am particularly interested in bridging **formal system design principles** wit
 ### Forward Vision — The Roadmap
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=750&color=58A6FF&center=true&vCenter=true&width=820&height=50&lines=%E2%9C%85+Application+Builder+%E2%80%94+shipped+systems+that+run;%F0%9F%94%B5+Backend+Architect+%E2%80%94+service+boundaries+%26+API+discipline+%5Bnow%5D;%E2%AC%9C+Distributed+Systems+Engineer+%E2%80%94+consistency%2C+fault+tolerance;%F0%9F%8E%AF+Systems+Architect+%E2%80%94+design+the+structures%2C+not+just+the+apps" alt="Roadmap"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=750&color=58A6FF&center=true&vCenter=true&width=860&height=50&lines=%E2%9C%85+Application+Builder+%E2%80%94+shipped+systems+that+run;%E2%9C%85+Backend+Architect+%E2%80%94+service+boundaries+%26+API+discipline;%F0%9F%94%B5+Distributed+Systems+Engineer+%E2%80%94+consistency%2C+fault+tolerance+%5Bnow%5D;%F0%9F%8E%AF+Systems+Architect+%E2%80%94+design+the+structures%2C+not+just+the+apps" alt="Roadmap"/>
 </p>
 
 ```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0d1117','primaryBorderColor':'#58a6ff','lineColor':'#58a6ff','primaryTextColor':'#c9d1d9'}}}%%
+%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0d1117','primaryBorderColor':'#58a6ff','lineColor':'#58a6ff','primaryTextColor':'#c9d1d9','fontFamily':'Fira Code, monospace'}}}%%
 flowchart LR
-    A([✅ Application Builder]):::done --> B([🔵 Backend Architect<br/>· you are here ·]):::now
-    B --> C([⬜ Distributed Systems<br/>Engineer · 2026–27]):::next
-    C --> D([🎯 Systems Architect<br/>· horizon ·]):::goal
-    classDef done fill:#0d1117,stroke:#2ea043,color:#c9d1d9,stroke-width:2px;
-    classDef now fill:#0d1117,stroke:#58a6ff,color:#58a6ff,stroke-width:3px;
-    classDef next fill:#0d1117,stroke:#30363d,color:#8b949e,stroke-width:2px;
-    classDef goal fill:#0d1117,stroke:#bc8cff,color:#bc8cff,stroke-width:2px;
+    A([✅ Application Builder<br/><i>multi-API dashboards</i>]):::done ==> B([✅ Backend Architect<br/><i>SigTrace · FastAPI</i>]):::done
+    B ==> C([🔵 Distributed Systems Engineer<br/><b>Nexus · gRPC · FUSE</b><br/>· you are here ·]):::now
+    C -.-> D([🎯 Systems Architect<br/><i>the horizon</i>]):::goal
+
+    classDef done fill:#0d1117,stroke:#2ea043,color:#7ee787,stroke-width:2px;
+    classDef now fill:#0b2545,stroke:#58a6ff,color:#58a6ff,stroke-width:3px;
+    classDef goal fill:#0d1117,stroke:#bc8cff,color:#bc8cff,stroke-width:2px,stroke-dasharray:4 3;
 ```
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Phase_progress-Backend_Architect-58A6FF?style=for-the-badge&labelColor=0d1117" alt="progress"/>
-  <img src="https://geps.dev/progress/55?dangerColor=58a6ff&warningColor=58a6ff&successColor=58a6ff" alt="55%"/>
-</p>
+<div align="center">
+
+| Phase | Status | Driving work | Progress |
+|:--|:--:|:--|:--|
+| **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
+| **Backend Architect** | ✅ Done | SigTrace · FastAPI service layer | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
+| **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh | <img src="https://geps.dev/progress/35?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
+| **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
+
+</div>
 
 Not just code that runs. **Systems that endure.**
 
