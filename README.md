@@ -194,13 +194,19 @@ class FrankBwalya:
 
 ---
 
+<!-- ◈ Trophy Case — TEMPORARILY HIDDEN
+     The public trophy host (github-profile-trophy.vercel.app) is disabled (HTTP 402).
+     Self-hosting in progress: fork at https://github.com/b5119/github-profile-trophy
+     Once deployed to Vercel, replace HOST below with your instance domain and uncomment.
+
 ## ◈ Trophy Case
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=b5119&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&title=Commits,PullRequest,Repositories,Stars,Followers,Experience,MultipleLang" alt="GitHub Trophies"/>
+  <img src="https://HOST/?username=b5119&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&title=Commits,PullRequest,Repositories,Stars,Followers,Experience,MultipleLang" alt="GitHub Trophies"/>
 </p>
 
 ---
+-->
 
 ## ◈ 2026 Engineering Growth & Collaboration
 
