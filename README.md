@@ -301,14 +301,10 @@ Not just code that runs. **Systems that endure.**
 That isn't discouragement. It's the only honest description of what engineering actually is — a permanent state of knowing enough to understand how much remains. The engineers worth learning from aren't the ones who know the most. They're the ones who've stayed long enough to understand *how much they don't know* — and kept building anyway.
 
 <p align="center">
-  <img src="./assets/moba.svg" alt="Hextech ability kit — Q build, W ship, E debug, R architect" width="860"/>
+  <img src="./assets/moba.svg" alt="MOBA minimap — pushing mid toward the Systems Architect nexus" width="860"/>
 </p>
 
 ---
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/b5119?label=Followers&style=social"/>

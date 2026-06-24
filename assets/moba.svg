@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" width="960" height="240"
      font-family="'Fira Code','JetBrains Mono','Segoe UI',monospace" role="img"
-     aria-label="A MOBA minimap. From the base (application builder) a champion pushes mid lane toward the enemy nexus, labelled Systems Architect. Three lanes map to domains: top backend, mid systems, bot blockchain. Objective: take the nexus.">
+     aria-label="A MOBA minimap. From the ally base (application builder) a champion pushes mid lane toward the enemy nexus, labelled Systems Architect. Three lanes map to domains: top backend, mid systems, bot blockchain, each with tiered turrets. River objectives, jungle camps and marching minions fill the map. Objective: take the nexus.">
   <defs>
     <linearGradient id="hxgold" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f0d488"/>
@@ -16,10 +16,15 @@
       <stop offset="0.5" stop-color="#f0d488"/>
       <stop offset="1" stop-color="#9a7b3f" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="fog" cx="0.5" cy="0.5" r="0.62">
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
     <filter id="hxglow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <clipPath id="mapclip"><rect x="44" y="30" width="200" height="200" rx="12"/></clipPath>
   </defs>
 
   <rect x="1" y="1" width="958" height="238" rx="16" fill="#0a0e14" stroke="#1c2530" stroke-width="1.5"/>
@@ -33,62 +38,97 @@
   </g>
 
   <!-- ===================== MINIMAP ===================== -->
-  <g>
-    <rect x="46" y="40" width="188" height="188" rx="10" fill="#0c1620" stroke="#1c2530" stroke-width="1.5"/>
+  <g clip-path="url(#mapclip)">
+    <rect x="44" y="30" width="200" height="200" fill="#0c1620"/>
 
-    <!-- river (perpendicular to mid) -->
-    <line x1="60" y1="70" x2="220" y2="206" stroke="#0ac8b9" stroke-width="10" opacity="0.10" stroke-linecap="round"/>
+    <!-- team territories split by the river diagonal (TL->BR) -->
+    <path d="M44,30 L44,230 L244,230 Z" fill="#11304a" opacity="0.45"/>   <!-- ally (lower-left) -->
+    <path d="M44,30 L244,30 L244,230 Z" fill="#2a2410" opacity="0.5"/>    <!-- enemy (upper-right) -->
+
+    <!-- subtle terrain grid -->
+    <g stroke="#16212c" stroke-width="1" opacity="0.6">
+      <line x1="44" y1="80" x2="244" y2="80"/><line x1="44" y1="130" x2="244" y2="130"/><line x1="44" y1="180" x2="244" y2="180"/>
+      <line x1="94" y1="30" x2="94" y2="230"/><line x1="144" y1="30" x2="144" y2="230"/><line x1="194" y1="30" x2="194" y2="230"/>
+    </g>
+
+    <!-- river (TL->BR), crosses mid at centre -->
+    <line x1="44" y1="30" x2="244" y2="230" stroke="#0ac8b9" stroke-width="13" opacity="0.12" stroke-linecap="round"/>
+    <line x1="44" y1="30" x2="244" y2="230" stroke="#0ac8b9" stroke-width="2" opacity="0.25" stroke-dasharray="3 9">
+      <animate attributeName="stroke-dashoffset" from="0" to="-120" dur="5s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- river objectives: Baron (top) + Dragon (bot) -->
+    <g>
+      <circle cx="104" cy="92" r="9" fill="#160f26" stroke="#8957e5" stroke-width="1.4"/>
+      <text x="104" y="96" fill="#b692f6" font-size="9" font-weight="700" text-anchor="middle">B</text>
+      <circle cx="186" cy="170" r="9" fill="#2a1206" stroke="#db6d28" stroke-width="1.4"/>
+      <text x="186" y="174" fill="#f0a060" font-size="9" font-weight="700" text-anchor="middle">D</text>
+    </g>
 
     <!-- lanes -->
-    <path d="M74,200 L66,66 L206,66" fill="none" stroke="#283541" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M74,200 L212,202 L206,68" fill="none" stroke="#283541" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M74,200 L206,68" fill="none" stroke="#34424f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M66,208 L60,60 L222,52" fill="none" stroke="#26333f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M66,208 L228,214 L222,52" fill="none" stroke="#26333f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M66,208 L222,52" fill="none" stroke="#33424f" stroke-width="6" stroke-linecap="round"/>
     <!-- mid flowing energy -->
-    <path d="M74,200 L206,68" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 12" opacity="0.7">
-      <animate attributeName="stroke-dashoffset" from="0" to="-140" dur="3s" repeatCount="indefinite"/>
+    <path d="M66,208 L222,52" fill="none" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 12" opacity="0.7">
+      <animate attributeName="stroke-dashoffset" from="0" to="-160" dur="3s" repeatCount="indefinite"/>
     </path>
 
-    <!-- towers (squares): yours teal-ish near base, enemy gold near nexus -->
-    <g stroke-width="1.4">
-      <rect x="112" y="150" width="9" height="9" rx="2" fill="#0e1a1f" stroke="#0ac8b9"/>
-      <rect x="154" y="106" width="9" height="9" rx="2" fill="#1a1206" stroke="#c8aa6e"/>
-      <rect x="92"  y="118" width="9" height="9" rx="2" fill="#0e1a1f" stroke="#0ac8b9"/>
-      <rect x="170" y="168" width="9" height="9" rx="2" fill="#1a1206" stroke="#c8aa6e"/>
+    <!-- minion waves (ally pushing on all three lanes) -->
+    <g fill="#7fe9df">
+      <circle r="2.4"><animateMotion path="M66,208 L222,52" dur="6s" begin="0s"   repeatCount="indefinite"/></circle>
+      <circle r="2.4"><animateMotion path="M66,208 L222,52" dur="6s" begin="1.5s" repeatCount="indefinite"/></circle>
+      <circle r="2.4"><animateMotion path="M66,208 L222,52" dur="6s" begin="3s"   repeatCount="indefinite"/></circle>
+      <circle r="2.2"><animateMotion path="M66,208 L60,60 L222,52" dur="8s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle r="2.2"><animateMotion path="M66,208 L60,60 L222,52" dur="8s" begin="3.2s" repeatCount="indefinite"/></circle>
+      <circle r="2.2"><animateMotion path="M66,208 L228,214 L222,52" dur="8s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle r="2.2"><animateMotion path="M66,208 L228,214 L222,52" dur="8s" begin="4.6s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- turrets: ally (teal) toward base, enemy (gold) toward nexus -->
+    <g stroke-width="1.5">
+      <rect x="105" y="159" width="10" height="10" rx="2.5" fill="#0e1a1f" stroke="#0ac8b9"/>  <!-- mid ally -->
+      <rect x="173" y="91"  width="10" height="10" rx="2.5" fill="#1a1206" stroke="#c8aa6e"/>  <!-- mid enemy -->
+      <rect x="58"  y="122" width="10" height="10" rx="2.5" fill="#0e1a1f" stroke="#0ac8b9"/>  <!-- top ally -->
+      <rect x="152" y="50"  width="10" height="10" rx="2.5" fill="#1a1206" stroke="#c8aa6e"/>  <!-- top enemy -->
+      <rect x="142" y="206" width="10" height="10" rx="2.5" fill="#0e1a1f" stroke="#0ac8b9"/>  <!-- bot ally -->
+      <rect x="220" y="128" width="10" height="10" rx="2.5" fill="#1a1206" stroke="#c8aa6e"/>  <!-- bot enemy -->
     </g>
 
     <!-- jungle camps -->
     <g fill="#283541">
-      <circle cx="110" cy="110" r="2.4"/><circle cx="150" cy="160" r="2.4"/>
-      <circle cx="130" cy="135" r="2.4"/><circle cx="96" cy="160" r="2.4"/><circle cx="184" cy="112" r="2.4"/>
+      <circle cx="96" cy="150" r="2.4"/><circle cx="120" cy="186" r="2.4"/><circle cx="86" cy="112" r="2.4"/>
+      <circle cx="170" cy="78" r="2.4"/><circle cx="200" cy="118" r="2.4"/><circle cx="196" cy="150" r="2.4"/>
     </g>
 
-    <!-- minions marching mid (staggered) -->
-    <g fill="#7fe9df">
-      <circle r="2.6"><animateMotion path="M74,200 L206,68" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
-      <circle r="2.6"><animateMotion path="M74,200 L206,68" dur="6s" begin="1.2s" repeatCount="indefinite"/></circle>
-      <circle r="2.6"><animateMotion path="M74,200 L206,68" dur="6s" begin="2.4s" repeatCount="indefinite"/></circle>
-    </g>
+    <!-- ally base (bottom-left): nexus + flanking turrets -->
+    <rect x="50" y="200" width="9" height="9" rx="2" fill="#0e1a1f" stroke="#58a6ff" stroke-width="1.4"/>
+    <rect x="84" y="206" width="9" height="9" rx="2" fill="#0e1a1f" stroke="#58a6ff" stroke-width="1.4"/>
+    <circle cx="66" cy="208" r="10" fill="#0b2545" stroke="#58a6ff" stroke-width="2.4"/>
+    <circle cx="66" cy="208" r="3.4" fill="#58a6ff"/>
 
-    <!-- your base (nexus) bottom-left -->
-    <circle cx="74" cy="200" r="9" fill="#0b2545" stroke="#58a6ff" stroke-width="2.2"/>
-    <circle cx="74" cy="200" r="3" fill="#58a6ff"/>
-
-    <!-- enemy nexus top-right: Systems Architect -->
-    <circle cx="206" cy="68" r="16" fill="url(#nexus)" opacity="0.5">
-      <animate attributeName="r" values="12;20;12" dur="2.6s" repeatCount="indefinite"/>
+    <!-- enemy nexus (top-right): Systems Architect -->
+    <rect x="200" y="48" width="9" height="9" rx="2" fill="#1a1206" stroke="#c8aa6e" stroke-width="1.4"/>
+    <rect x="214" y="74" width="9" height="9" rx="2" fill="#1a1206" stroke="#c8aa6e" stroke-width="1.4"/>
+    <circle cx="222" cy="52" r="17" fill="url(#nexus)" opacity="0.55">
+      <animate attributeName="r" values="12;21;12" dur="2.6s" repeatCount="indefinite"/>
     </circle>
-    <path d="M206,58 l8,10 l-8,10 l-8,-10 z" fill="#0d1117" stroke="url(#hxgold)" stroke-width="2"/>
-    <path d="M206,63 l4,5 l-4,5 l-4,-5 z" fill="#f0d488"/>
+    <path d="M222,41 l9,11 l-9,11 l-9,-11 z" fill="#0d1117" stroke="url(#hxgold)" stroke-width="2"/>
+    <path d="M222,47 l4.5,5 l-4.5,5 l-4.5,-5 z" fill="#f0d488"/>
 
     <!-- champion blip pushing mid -->
     <g filter="url(#hxglow)">
       <g>
-        <animateMotion path="M74,200 L206,68" dur="6s" repeatCount="indefinite" calcMode="linear"/>
+        <animateMotion path="M66,208 L222,52" dur="6s" repeatCount="indefinite" calcMode="linear"/>
         <circle r="8" fill="url(#champ)"/>
         <circle r="3.4" fill="#ffffff"/>
       </g>
     </g>
+
+    <!-- fog-of-war vignette -->
+    <rect x="44" y="30" width="200" height="200" fill="url(#fog)"/>
   </g>
+  <rect x="44" y="30" width="200" height="200" rx="12" fill="none" stroke="#1c2530" stroke-width="1.5"/>
 
   <!-- ===================== OBJECTIVE PANEL ===================== -->
   <text x="288" y="60" fill="#c8aa6e" font-size="13" font-weight="700" letter-spacing="4">MINIMAP &#183;&#183; THE CLIMB</text>
