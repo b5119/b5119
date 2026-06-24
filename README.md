@@ -264,6 +264,7 @@ I am particularly interested in bridging **formal system design principles** wit
 |:--|:--:|:--|:--|
 | **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Backend Architect** | ✅ Done | SigTrace · FastAPI service layer | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
+| **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh | <img src="https://geps.dev/progress/35?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
 | **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
 

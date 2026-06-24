@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300"
      font-family="'Fira Code','JetBrains Mono','Segoe UI',monospace" role="img"
-     aria-label="Engineering roadmap. Application Builder: done. Backend Architect: done. Distributed Systems Engineer: in progress, you are here. Systems Architect: the goal. A data packet travels the track from start to horizon on a loop.">
+     aria-label="Engineering roadmap. Application Builder: done. Backend Architect: done. Smart Contracts and dApps: done. Distributed Systems Engineer: in progress, you are here. Systems Architect: the goal. A data packet travels the track from start to horizon on a loop.">
   <defs>
     <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#2ea043"/>
@@ -30,8 +30,8 @@
 
   <!-- rail base -->
   <line x1="110" y1="178" x2="850" y2="178" stroke="#21262d" stroke-width="6" stroke-linecap="round"/>
-  <!-- rail progress: done + current portion -->
-  <line x1="110" y1="178" x2="603" y2="178" stroke="url(#rail)" stroke-width="6" stroke-linecap="round"/>
+  <!-- rail progress: done + current portion (up to the 'you are here' station) -->
+  <line x1="110" y1="178" x2="665" y2="178" stroke="url(#rail)" stroke-width="6" stroke-linecap="round"/>
   <!-- flowing energy dashes -->
   <line x1="110" y1="178" x2="850" y2="178" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 16" opacity="0.65">
     <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="3s" repeatCount="indefinite"/>
@@ -49,31 +49,41 @@
     <text x="110" y="244" fill="#2ea043" font-size="11" font-weight="700" text-anchor="middle">100% &#10003; done</text>
   </g>
 
-  <!-- S2: Backend Architect (done) @357 -->
+  <!-- S2: Backend Architect (done) @295 -->
   <g>
-    <text x="357" y="120" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">BACKEND</text>
-    <text x="357" y="137" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">ARCHITECT</text>
-    <circle cx="357" cy="178" r="13" fill="#0d1117" stroke="#2ea043" stroke-width="3"/>
-    <path d="M351,178 l4,4 l8,-9" fill="none" stroke="#7ee787" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="357" y="222" fill="#6e7681" font-size="11" text-anchor="middle">SigTrace &#183; FastAPI</text>
-    <text x="357" y="244" fill="#2ea043" font-size="11" font-weight="700" text-anchor="middle">100% &#10003; done</text>
+    <text x="295" y="120" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">BACKEND</text>
+    <text x="295" y="137" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">ARCHITECT</text>
+    <circle cx="295" cy="178" r="13" fill="#0d1117" stroke="#2ea043" stroke-width="3"/>
+    <path d="M289,178 l4,4 l8,-9" fill="none" stroke="#7ee787" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="295" y="222" fill="#6e7681" font-size="11" text-anchor="middle">SigTrace &#183; FastAPI</text>
+    <text x="295" y="244" fill="#2ea043" font-size="11" font-weight="700" text-anchor="middle">100% &#10003; done</text>
   </g>
 
-  <!-- S3: Distributed Systems Engineer (now) @603 -->
+  <!-- S3: Smart Contracts (done) @480 -->
   <g>
-    <text x="603" y="120" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="middle">DISTRIBUTED</text>
-    <text x="603" y="137" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="middle">SYSTEMS ENGINEER</text>
-    <circle cx="603" cy="178" r="14" fill="none" stroke="#58a6ff" stroke-width="2">
+    <text x="480" y="120" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">SMART</text>
+    <text x="480" y="137" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">CONTRACTS</text>
+    <circle cx="480" cy="178" r="13" fill="#0d1117" stroke="#2ea043" stroke-width="3"/>
+    <path d="M474,178 l4,4 l8,-9" fill="none" stroke="#7ee787" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="480" y="222" fill="#6e7681" font-size="11" text-anchor="middle">ChainBa &#183; 23 tests</text>
+    <text x="480" y="244" fill="#2ea043" font-size="11" font-weight="700" text-anchor="middle">100% &#10003; done</text>
+  </g>
+
+  <!-- S4: Distributed Systems Engineer (now) @665 -->
+  <g>
+    <text x="665" y="120" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="middle">DISTRIBUTED</text>
+    <text x="665" y="137" fill="#58a6ff" font-size="13" font-weight="700" text-anchor="middle">SYSTEMS ENGINEER</text>
+    <circle cx="665" cy="178" r="14" fill="none" stroke="#58a6ff" stroke-width="2">
       <animate attributeName="r" values="14;27;14" dur="2.4s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.9;0;0.9" dur="2.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="603" cy="178" r="13" fill="#0b2545" stroke="#58a6ff" stroke-width="3"/>
-    <circle cx="603" cy="178" r="4.5" fill="#58a6ff"/>
-    <text x="603" y="222" fill="#8b949e" font-size="11" text-anchor="middle">Nexus &#183; gRPC &#183; FUSE</text>
-    <text x="603" y="244" fill="#58a6ff" font-size="11" font-weight="700" text-anchor="middle">&#9656; you are here</text>
+    <circle cx="665" cy="178" r="13" fill="#0b2545" stroke="#58a6ff" stroke-width="3"/>
+    <circle cx="665" cy="178" r="4.5" fill="#58a6ff"/>
+    <text x="665" y="222" fill="#8b949e" font-size="11" text-anchor="middle">Nexus &#183; gRPC &#183; FUSE</text>
+    <text x="665" y="244" fill="#58a6ff" font-size="11" font-weight="700" text-anchor="middle">&#9656; you are here</text>
   </g>
 
-  <!-- S4: Systems Architect (goal) @850 -->
+  <!-- S5: Systems Architect (goal) @850 -->
   <g>
     <text x="850" y="120" fill="#d2a8ff" font-size="13" font-weight="700" text-anchor="middle">SYSTEMS</text>
     <text x="850" y="137" fill="#d2a8ff" font-size="13" font-weight="700" text-anchor="middle">ARCHITECT</text>
