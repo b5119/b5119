@@ -59,7 +59,7 @@ A **blockchain-anchored accountability framework** for Zambia's Constituency Dev
 
 Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabric` · `Polygon` · `React`  
 Focus: Civic-tech transparency under real infrastructure constraints.  
-[→ View Repository](https://github.com/b5119/cdf-sigtrace-zambia)
+🔒 Private during active development — walkthrough available on request
 
 ---
 
@@ -194,19 +194,29 @@ class FrankBwalya:
 
 ---
 
-<!-- ◈ Trophy Case — TEMPORARILY HIDDEN
-     The public trophy host (github-profile-trophy.vercel.app) is disabled (HTTP 402).
-     Self-hosting in progress: fork at https://github.com/b5119/github-profile-trophy
-     Once deployed to Vercel, replace HOST below with your instance domain and uncomment.
+## ◈ More of My Work
 
-## ◈ Trophy Case
+> Beyond the two flagships above — breadth across backend, blockchain, and mobile.
 
 <p align="center">
-  <img src="https://HOST/?username=b5119&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&title=Commits,PullRequest,Repositories,Stars,Followers,Experience,MultipleLang" alt="GitHub Trophies"/>
+  <a href="https://github.com/b5119/flask-api-dashboard">
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=flask-api-dashboard&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/b5119/chainmsg">
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=chainmsg&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/b5119/gpa_tracker">
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=gpa_tracker&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  </a>
+  <a href="https://github.com/b5119/python-api-projects">
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=python-api-projects&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  </a>
 </p>
 
 ---
--->
 
 ## ◈ 2026 Engineering Growth & Collaboration
 
