@@ -55,7 +55,7 @@
     <text x="295" y="137" fill="#7ee787" font-size="13" font-weight="700" text-anchor="middle">ARCHITECT</text>
     <circle cx="295" cy="178" r="13" fill="#0d1117" stroke="#2ea043" stroke-width="3"/>
     <path d="M289,178 l4,4 l8,-9" fill="none" stroke="#7ee787" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="295" y="222" fill="#6e7681" font-size="11" text-anchor="middle">SigTrace &#183; FastAPI</text>
+    <text x="295" y="222" fill="#6e7681" font-size="11" text-anchor="middle">API Hub &#183; Flask</text>
     <text x="295" y="244" fill="#2ea043" font-size="11" font-weight="700" text-anchor="middle">100% &#10003; done</text>
   </g>
 

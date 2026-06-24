@@ -154,6 +154,7 @@ class FrankBwalya:
         "systems":     ["Rust", "Tokio", "gRPC", "FUSE", "cross-compilation"],
         "backend":     ["FastAPI", "Flask", "service-layer design", "API orchestration"],
         "blockchain":  ["Solidity", "Hardhat", "OpenZeppelin", "ethers.js", "dApp delivery"],
+        "civic_tech":  ["digital identity (ZedLedger)", "gov accountability (SigTrace)", "data-protection compliance"],
         "mobile":      ["Flutter", "Dart", "Android (cargo-ndk)", "offline-first PWAs"],
         "devops":      ["Docker", "CI/CD", "environment-based configuration"],
     }
@@ -189,11 +190,26 @@ class FrankBwalya:
 
 ## ◈ More of My Work
 
-> 🏆 **Hackathon winner**, plus breadth across backend, blockchain, and mobile.
+### 🏆 ZedLedger — Zambia eNID Platform *(Hackathon Winner)*
+> *1st place · Zambia Digital ID category · 2026 ZAMREN Student Hackathon, Livingstone*
 
 <p align="center">
   <img src="./assets/zedledger.svg" alt="ZedLedger — Zambia eNID Platform. 1st prize, Zambia Digital ID category, 2026 ZAMREN Student Hackathon." width="860"/>
 </p>
+
+A full-stack **digital national identity platform** for Zambia, built by a team of four under hackathon conditions — citizen registration, eNID issuance, civil registration (births/deaths), and blockchain-anchored certificates.
+
+- **Backend lead** — I owned the identity, mobile-money (GSB / ISO 8583), immigration, blockchain, and API-gateway services
+- **Microservice architecture** — seven services behind a single JWT-validating API gateway, with isolated PostgreSQL schemas per domain
+- **On-chain integrity** — Hyperledger Fabric anchors tamper-evident certificate hashes for births, deaths, and IDs
+- **Compliance by design** — aligned with the Zambia Data Protection Act No. 3 of 2021
+
+Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL` · `Docker`  
+🔒 Private (hackathon repo) — walkthrough available on request
+
+---
+
+> Plus breadth across backend, blockchain, and mobile:
 
 <p align="center">
   <a href="https://github.com/b5119/flask-api-dashboard">
@@ -267,7 +283,7 @@ I am particularly interested in bridging **formal system design principles** wit
 | Phase | Status | Driving work | Progress |
 |:--|:--:|:--|:--|
 | **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
-| **Backend Architect** | ✅ Done | SigTrace · FastAPI service layer | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
+| **Backend Architect** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh | <img src="https://geps.dev/progress/35?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
 | **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
