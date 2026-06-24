@@ -145,15 +145,15 @@ class FrankBwalya:
     trajectory = [
         "application-level development",     # ✅ done
         "backend architecture & patterns",   # ✅ done
+        "smart contract ecosystems",         # ✅ done — ChainBa (3 contracts, 23 tests)
         "distributed systems design",        # ← currently here
-        "smart contract ecosystems",         # ⬜ in progress
         "full system architecture",          # 🎯 destination
     ]
 
     engineering_focus = {
         "systems":     ["Rust", "Tokio", "gRPC", "FUSE", "cross-compilation"],
         "backend":     ["FastAPI", "Flask", "service-layer design", "API orchestration"],
-        "blockchain":  ["Solidity", "Hyperledger Fabric", "Polygon", "on-chain anchoring"],
+        "blockchain":  ["Solidity", "Hardhat", "OpenZeppelin", "ethers.js", "dApp delivery"],
         "mobile":      ["Flutter", "Dart", "Android (cargo-ndk)", "offline-first PWAs"],
         "devops":      ["Docker", "CI/CD", "environment-based configuration"],
     }
@@ -195,8 +195,8 @@ class FrankBwalya:
   <a href="https://github.com/b5119/flask-api-dashboard">
     <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=flask-api-dashboard&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
   </a>
-  <a href="https://github.com/b5119/chainmsg">
-    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=chainmsg&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+  <a href="https://github.com/b5119/chainba">
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=chainba&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
   </a>
 </p>
 
@@ -255,7 +255,7 @@ I am particularly interested in bridging **formal system design principles** wit
 <!-- Animated roadmap: a data packet travels the track through each milestone on a loop.
      Source: assets/roadmap.svg (hand-authored animated SVG) -->
 <p align="center">
-  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Architect to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
+  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Architect and Smart Contracts to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
 </p>
 
 <div align="center">
@@ -268,6 +268,13 @@ I am particularly interested in bridging **formal system design principles** wit
 | **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
 
 </div>
+
+<p align="center">
+  <b>Domains already shipped:</b><br/>
+  <img src="https://img.shields.io/badge/Smart_Contracts-ChainBa%20·%20Solidity%20·%20OpenZeppelin%20·%2023%20tests-2ea043?style=flat-square&labelColor=0d1117&logo=solidity&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Full--stack_dApp-React%20·%20MetaMask%20·%20Node%2FExpress-2ea043?style=flat-square&labelColor=0d1117&logo=ethereum&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Backend_services-FastAPI%20·%20Flask-2ea043?style=flat-square&labelColor=0d1117&logo=fastapi&logoColor=white"/>
+</p>
 
 Not just code that runs. **Systems that endure.**
 
