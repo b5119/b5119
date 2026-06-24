@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 190" width="960" height="190"
+     font-family="'Fira Code','JetBrains Mono','Segoe UI',monospace" role="img"
+     aria-label="A MOBA-style hextech ability bar. Four abilities on cooldown: Q build, W ship, E debug, R architect (ultimate). An energy bar charges below. A nod to Viktor's glorious evolution from Arcane.">
+  <defs>
+    <linearGradient id="hxgold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d488"/>
+      <stop offset="1" stop-color="#9a7b3f"/>
+    </linearGradient>
+    <radialGradient id="hxteal" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#0e2a2e"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </radialGradient>
+    <linearGradient id="energy" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ac8b9"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="ult" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#2a1e0a"/>
+      <stop offset="1" stop-color="#0a0e14"/>
+    </linearGradient>
+    <filter id="hxglow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="188" rx="16" fill="#0a0e14" stroke="#1c2530" stroke-width="1.5"/>
+
+  <!-- corner hextech diamonds -->
+  <g fill="none" stroke="#c8aa6e" stroke-width="1" opacity="0.5">
+    <path d="M22,22 l8,-8 l8,8 l-8,8 z"/>
+    <path d="M930,22 l8,-8 l8,8 l-8,8 z"/>
+    <path d="M22,160 l8,-8 l8,8 l-8,8 z"/>
+    <path d="M930,160 l8,-8 l8,8 l-8,8 z"/>
+  </g>
+
+  <text x="480" y="34" fill="#c8aa6e" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="5">HEXTECH ABILITY KIT</text>
+
+  <!-- ===== ability slots: centers 354 / 438 / 522 / 606 ===== -->
+
+  <!-- Q: BUILD (cd 3s) -->
+  <g>
+    <rect x="322" y="50" width="64" height="64" rx="11" fill="url(#hxteal)" stroke="#0ac8b9" stroke-width="1.6"/>
+    <circle cx="354" cy="82" r="28" fill="none" stroke="#0ac8b9" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="175.9" transform="rotate(-90 354 82)" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" from="175.9" to="0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="354" y="86" fill="#7fe9df" font-size="11" font-weight="700" text-anchor="middle">BUILD</text>
+    <rect x="338" y="120" width="32" height="20" rx="5" fill="#0e1a1f" stroke="#0ac8b9" stroke-width="1"/>
+    <text x="354" y="134" fill="#0ac8b9" font-size="12" font-weight="700" text-anchor="middle">Q</text>
+  </g>
+
+  <!-- W: SHIP (cd 4s) -->
+  <g>
+    <rect x="406" y="50" width="64" height="64" rx="11" fill="url(#hxteal)" stroke="#0ac8b9" stroke-width="1.6"/>
+    <circle cx="438" cy="82" r="28" fill="none" stroke="#0ac8b9" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="175.9" transform="rotate(-90 438 82)" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" from="175.9" to="0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="438" y="86" fill="#7fe9df" font-size="11" font-weight="700" text-anchor="middle">SHIP</text>
+    <rect x="422" y="120" width="32" height="20" rx="5" fill="#0e1a1f" stroke="#0ac8b9" stroke-width="1"/>
+    <text x="438" y="134" fill="#0ac8b9" font-size="12" font-weight="700" text-anchor="middle">W</text>
+  </g>
+
+  <!-- E: DEBUG (cd 5s) -->
+  <g>
+    <rect x="490" y="50" width="64" height="64" rx="11" fill="url(#hxteal)" stroke="#0ac8b9" stroke-width="1.6"/>
+    <circle cx="522" cy="82" r="28" fill="none" stroke="#0ac8b9" stroke-width="3" stroke-linecap="round"
+            stroke-dasharray="175.9" transform="rotate(-90 522 82)" opacity="0.9">
+      <animate attributeName="stroke-dashoffset" from="175.9" to="0" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="522" y="86" fill="#7fe9df" font-size="11" font-weight="700" text-anchor="middle">DEBUG</text>
+    <rect x="506" y="120" width="32" height="20" rx="5" fill="#0e1a1f" stroke="#0ac8b9" stroke-width="1"/>
+    <text x="522" y="134" fill="#0ac8b9" font-size="12" font-weight="700" text-anchor="middle">E</text>
+  </g>
+
+  <!-- R: ARCHITECT (ultimate, gold, cd 8s) -->
+  <g filter="url(#hxglow)">
+    <rect x="574" y="50" width="64" height="64" rx="11" fill="url(#ult)" stroke="url(#hxgold)" stroke-width="2.4"/>
+    <circle cx="606" cy="82" r="28" fill="none" stroke="#f0d488" stroke-width="3.4" stroke-linecap="round"
+            stroke-dasharray="175.9" transform="rotate(-90 606 82)">
+      <animate attributeName="stroke-dashoffset" from="175.9" to="0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="606" y="80" fill="#f0d488" font-size="9.5" font-weight="700" text-anchor="middle">ARCHI-</text>
+    <text x="606" y="92" fill="#f0d488" font-size="9.5" font-weight="700" text-anchor="middle">TECT</text>
+    <rect x="590" y="120" width="32" height="20" rx="5" fill="#1a1206" stroke="url(#hxgold)" stroke-width="1.2"/>
+    <text x="606" y="134" fill="#f0d488" font-size="12" font-weight="700" text-anchor="middle">R</text>
+  </g>
+
+  <!-- ===== energy bar ===== -->
+  <text x="222" y="86" fill="#6e7681" font-size="10" font-weight="700" text-anchor="end" letter-spacing="1">ENERGY</text>
+  <rect x="230" y="74" width="70" height="14" rx="7" fill="#0e1a1f" stroke="#1c2530" stroke-width="1"/>
+  <rect x="232" y="76" width="66" height="10" rx="5" fill="url(#energy)" opacity="0.85">
+    <animate attributeName="width" values="14;66;14" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="660" y="74" width="70" height="14" rx="7" fill="#0e1a1f" stroke="#1c2530" stroke-width="1"/>
+  <rect x="662" y="76" width="66" height="10" rx="5" fill="url(#energy)" opacity="0.85">
+    <animate attributeName="width" values="66;14;66" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- caption -->
+  <text x="480" y="166" fill="#8b949e" font-size="11.5" text-anchor="middle">
+    Q build &#183; W ship &#183; E debug &#183; <tspan fill="#f0d488" font-weight="700">R architect</tspan>
+    <tspan fill="#6e7681"> &#8212; the glorious evolution</tspan>
+  </text>
+</svg>

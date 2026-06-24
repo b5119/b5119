@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200"
+     font-family="'Fira Code','JetBrains Mono','Segoe UI',monospace" role="img"
+     aria-label="ZedLedger — Zambia eNID Platform. First prize, Zambia Digital ID category, 2026 ZAMREN Student Hackathon. A private microservices digital national identity platform: eNID issuance, civil registration, Hyperledger certificate anchoring, and mobile-money KYC.">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9a7b3f"/>
+      <stop offset="0.5" stop-color="#f0d488"/>
+      <stop offset="1" stop-color="#9a7b3f"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0d488" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff6da" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#f0d488" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cardglow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="857" height="197" rx="16" fill="#0d1117" stroke="url(#gold)" stroke-width="2"/>
+  <!-- animated top shine sweeping along the border -->
+  <rect x="20" y="2" width="180" height="2.5" fill="url(#shine)">
+    <animate attributeName="x" values="-180;860" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- trophy emblem -->
+  <g transform="translate(56,86)" filter="url(#cardglow)">
+    <circle r="40" fill="#1a1206" stroke="url(#gold)" stroke-width="2"/>
+    <!-- cup -->
+    <path d="M-15,-20 h30 v8 a15,16 0 0 1 -30,0 z" fill="url(#gold)"/>
+    <path d="M-15,-18 h-7 a6,6 0 0 0 6,9" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <path d="M15,-18 h7 a6,6 0 0 1 -6,9" fill="none" stroke="url(#gold)" stroke-width="3"/>
+    <rect x="-3" y="-4" width="6" height="10" fill="url(#gold)"/>
+    <rect x="-12" y="6" width="24" height="5" rx="2" fill="url(#gold)"/>
+    <text x="0" y="28" fill="#f0d488" font-size="11" font-weight="700" text-anchor="middle">1st</text>
+  </g>
+
+  <!-- title block -->
+  <text x="118" y="56" fill="#f0d488" font-size="24" font-weight="700">ZedLedger</text>
+  <text x="118" y="78" fill="#8b949e" font-size="13">Zambia eNID Platform &#183; digital national identity</text>
+
+  <!-- winner ribbon -->
+  <g>
+    <rect x="118" y="92" width="372" height="24" rx="12" fill="#1a1206" stroke="url(#gold)" stroke-width="1.2"/>
+    <text x="134" y="109" fill="#f0d488" font-size="12.5" font-weight="700">&#9733; 1st Prize &#183; Zambia Digital ID &#183; ZAMREN Hackathon 2026</text>
+  </g>
+
+  <!-- description -->
+  <text x="118" y="138" fill="#6e7681" font-size="11.5">Microservices: eNID issuance &#183; civil registry &#183; Hyperledger anchoring &#183; mobile-money KYC</text>
+
+  <!-- tech chips -->
+  <g font-size="11" font-weight="700">
+    <g><rect x="118" y="150" width="76" height="22" rx="6" fill="#0b2545"/><text x="156" y="165" fill="#58a6ff" text-anchor="middle">Next.js</text></g>
+    <g><rect x="200" y="150" width="74" height="22" rx="6" fill="#10241a"/><text x="237" y="165" fill="#7ee787" text-anchor="middle">Python</text></g>
+    <g><rect x="280" y="150" width="148" height="22" rx="6" fill="#1c1426"/><text x="354" y="165" fill="#d2a8ff" text-anchor="middle">Hyperledger Fabric</text></g>
+    <g><rect x="434" y="150" width="104" height="22" rx="6" fill="#0b1f33"/><text x="486" y="165" fill="#58a6ff" text-anchor="middle">PostgreSQL</text></g>
+  </g>
+
+  <!-- right meta -->
+  <text x="838" y="56" fill="#6e7681" font-size="11" text-anchor="end">Livingstone &#183; May 2026</text>
+  <text x="838" y="74" fill="#6e7681" font-size="11" text-anchor="end">Team of 4 &#183; backend lead</text>
+  <g transform="translate(770,150)">
+    <rect x="0" y="0" width="68" height="22" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="34" y="15" fill="#8b949e" font-size="10.5" font-weight="700" text-anchor="middle">&#128274; private</text>
+  </g>
+</svg>

@@ -189,7 +189,11 @@ class FrankBwalya:
 
 ## ◈ More of My Work
 
-> Beyond the two flagships above — breadth across backend, blockchain, and mobile.
+> 🏆 **Hackathon winner**, plus breadth across backend, blockchain, and mobile.
+
+<p align="center">
+  <img src="./assets/zedledger.svg" alt="ZedLedger — Zambia eNID Platform. 1st prize, Zambia Digital ID category, 2026 ZAMREN Student Hackathon." width="860"/>
+</p>
 
 <p align="center">
   <a href="https://github.com/b5119/flask-api-dashboard">
@@ -295,6 +299,10 @@ Not just code that runs. **Systems that endure.**
 > **— Viktor, Arcane**
 
 That isn't discouragement. It's the only honest description of what engineering actually is — a permanent state of knowing enough to understand how much remains. The engineers worth learning from aren't the ones who know the most. They're the ones who've stayed long enough to understand *how much they don't know* — and kept building anyway.
+
+<p align="center">
+  <img src="./assets/moba.svg" alt="Hextech ability kit — Q build, W ship, E debug, R architect" width="860"/>
+</p>
 
 ---
 
