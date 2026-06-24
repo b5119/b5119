@@ -73,70 +73,63 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 <br/>
 
-### Core Languages
-
-<div align="center">
-
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</div>
-
-### Systems & Backend
-
-<div align="center">
-
-![Tokio](https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Protobuf](https://img.shields.io/badge/Protobuf-EA4335?style=for-the-badge&logo=protobuf&logoColor=white)
-![FUSE](https://img.shields.io/badge/FUSE-EE0000?style=for-the-badge&logo=linux&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-</div>
-
-### Blockchain & Frontend
-
-<div align="center">
-
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black)
-![Hyperledger](https://img.shields.io/badge/Hyperledger_Fabric-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white)
-![Polygon](https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white)
-![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-</div>
-
-### Infrastructure & Tooling
-
-<div align="center">
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-</div>
-
-### Learning / Integrating in 2026
-
-<div align="center">
-
-![Cloud](https://img.shields.io/badge/Cloud_Deployment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-</div>
+<table align="center">
+  <tr>
+    <td align="right" valign="middle"><b>&nbsp;Languages&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><b>&nbsp;Systems&nbsp;&amp;&nbsp;Backend&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Protobuf-EA4335?style=for-the-badge&logo=protobuf&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FUSE-EE0000?style=for-the-badge&logo=linux&logoColor=white"/>
+      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><b>&nbsp;Blockchain&nbsp;&amp;&nbsp;Frontend&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Hyperledger_Fabric-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white"/>
+      <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><b>&nbsp;Infra&nbsp;&amp;&nbsp;Tooling&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
+      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><b>&nbsp;Integrating&nbsp;in&nbsp;2026&nbsp;</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Cloud_Deployment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -259,21 +252,11 @@ I am particularly interested in bridging **formal system design principles** wit
 
 ### Forward Vision — The Roadmap
 
+<!-- Animated roadmap: a data packet travels the track through each milestone on a loop.
+     Source: assets/roadmap.svg (hand-authored animated SVG) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=750&color=58A6FF&center=true&vCenter=true&width=860&height=50&lines=%E2%9C%85+Application+Builder+%E2%80%94+shipped+systems+that+run;%E2%9C%85+Backend+Architect+%E2%80%94+service+boundaries+%26+API+discipline;%F0%9F%94%B5+Distributed+Systems+Engineer+%E2%80%94+consistency%2C+fault+tolerance+%5Bnow%5D;%F0%9F%8E%AF+Systems+Architect+%E2%80%94+design+the+structures%2C+not+just+the+apps" alt="Roadmap"/>
+  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Architect to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
 </p>
-
-```mermaid
-%%{init: {'theme':'dark', 'themeVariables': {'primaryColor':'#0d1117','primaryBorderColor':'#58a6ff','lineColor':'#58a6ff','primaryTextColor':'#c9d1d9','fontFamily':'Fira Code, monospace'}}}%%
-flowchart LR
-    A([✅ Application Builder<br/><i>multi-API dashboards</i>]):::done ==> B([✅ Backend Architect<br/><i>SigTrace · FastAPI</i>]):::done
-    B ==> C([🔵 Distributed Systems Engineer<br/><b>Nexus · gRPC · FUSE</b><br/>· you are here ·]):::now
-    C -.-> D([🎯 Systems Architect<br/><i>the horizon</i>]):::goal
-
-    classDef done fill:#0d1117,stroke:#2ea043,color:#7ee787,stroke-width:2px;
-    classDef now fill:#0b2545,stroke:#58a6ff,color:#58a6ff,stroke-width:3px;
-    classDef goal fill:#0d1117,stroke:#bc8cff,color:#bc8cff,stroke-width:2px,stroke-dasharray:4 3;
-```
 
 <div align="center">
 
