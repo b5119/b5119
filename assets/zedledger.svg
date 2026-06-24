@@ -7,6 +7,11 @@
       <stop offset="0.5" stop-color="#f0d488"/>
       <stop offset="1" stop-color="#9a7b3f"/>
     </linearGradient>
+    <linearGradient id="goldv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe9a8"/>
+      <stop offset="0.5" stop-color="#e8c878"/>
+      <stop offset="1" stop-color="#a07f3e"/>
+    </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#f0d488" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#fff6da" stop-opacity="0.9"/>
@@ -40,10 +45,19 @@
   <text x="118" y="56" fill="#f0d488" font-size="24" font-weight="700">ZedLedger</text>
   <text x="118" y="78" fill="#8b949e" font-size="13">Zambia eNID Platform &#183; digital national identity</text>
 
-  <!-- winner ribbon -->
+  <!-- dimensional first-prize banner -->
   <g>
-    <rect x="118" y="92" width="372" height="24" rx="12" fill="#1a1206" stroke="url(#gold)" stroke-width="1.2"/>
-    <text x="134" y="109" fill="#f0d488" font-size="12.5" font-weight="700">&#9733; 1st Prize &#183; Zambia Digital ID &#183; ZAMREN Hackathon 2026</text>
+    <!-- hanging tails (depth) -->
+    <path d="M150,114 l-7,20 l9,-5 l2,-12 z" fill="#7a5f2a"/>
+    <path d="M168,114 l7,20 l-9,-5 l-2,-12 z" fill="#7a5f2a"/>
+    <!-- drop shadow -->
+    <path d="M132,93 H478 L490,106 L478,119 H132 L120,106 Z" fill="#000000" opacity="0.40" transform="translate(2.5,3)"/>
+    <!-- banner body -->
+    <path d="M130,91 H476 L488,104 L476,117 H130 L118,104 Z" fill="url(#goldv)" stroke="#7a5f2a" stroke-width="1"/>
+    <!-- top highlight + bottom shade for dimension -->
+    <path d="M130,91 H476 L470,97 H130 z" fill="#ffffff" opacity="0.30"/>
+    <path d="M130,117 H476 L482,111 H130 z" fill="#000000" opacity="0.18"/>
+    <text x="300" y="109" fill="#241a06" font-size="12.5" font-weight="700" text-anchor="middle">&#9733; 1st PRIZE &#183; Zambia Digital ID &#183; ZAMREN 2026</text>
   </g>
 
   <!-- description -->
