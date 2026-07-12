@@ -32,17 +32,29 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 ## ◈ What I'm Actually Working On
 
 ### `01` — Nexus — Personal Device Mesh *(Active)*
-> *Your devices, one filesystem — nothing copied until it's read*
+> *Paired devices, one authenticated mesh — filesystem, streaming, migration*
 
-A **personal device mesh** built from scratch in **Rust**: mount your phone's storage on your laptop as a real, lazy-loaded FUSE filesystem. `ls`, `cat`, `cp` all behave like a local directory — but nothing transfers until you actually read it.
+A **personal device mesh** built from scratch in **Rust**: mount any paired 
+device's storage as a real FUSE filesystem, stream its screen over an 
+authenticated gRPC channel, and migrate app state between devices — all over 
+an mTLS-encrypted, code-paired connection.
 
-- **Lazy FUSE virtualization** — remote files appear local; bytes move on demand, not on mount
-- **Typed gRPC transport** — a `FileService` contract (ListDir / Stat / ReadFile) over Tonic + Prost
-- **Cross-compiled to Android** — `cargo-ndk`, arm64-v8a; the host role runs on-device
-- **Hardware-verified** — byte-exact reads across a real phone → laptop mount, including chunk-boundary offset reads
+- **Lazy FUSE virtualization** — remote files appear local; bytes move on 
+  demand, not on mount. Multi-writer conflict detection via vector clocks — 
+  concurrent edits keep both versions, never silently lose data.
+- **Device pairing** — 6-digit code exchange, per-device identity certificates, 
+  mTLS on every connection. No shared secrets passed manually.
+- **Screen streaming** — H.264 encode (QSV/libx264 fallback) → gRPC 
+  bidirectional stream → decode + display, with uinput input injection.
+- **Migration SDK** — app-cooperative state migration with CRDT-style conflict 
+  policies (LastWriteWins / AppMerge / KeepBoth), Android JNI bindings included.
+- **Hardware-verified** — byte-exact reads on a real Android phone → Linux 
+  laptop mount. Authenticated write + large-file streaming confirmed on device.
 
-Stack: `Rust` · `Tokio` · `gRPC` · `Protobuf` · `FUSE`  
-Focus: Systems programming where correctness is measured in bytes.  
+Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` · 
+`TLS/mTLS` · `Android (cargo-ndk)`  
+57 tests · CI-gated · branch-protected · 14 ADRs
+
 [→ View Repository](https://github.com/b5119/nexus02)
 
 ---
@@ -285,7 +297,7 @@ I am particularly interested in bridging **formal system design principles** wit
 | **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Backend Architect** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
 | **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
-| **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh | <img src="https://geps.dev/progress/35?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
+| **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh | <img src="https://geps.dev/progress/65?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
 | **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
 
 </div>
