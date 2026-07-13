@@ -31,30 +31,31 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ What I'm Actually Working On
 
-### `01` — Nexus — Personal Device Mesh *(Active)*
+#### `01` — Nexus — Personal Device Mesh *(Active)*
 > *Paired devices, one authenticated mesh — filesystem, streaming, migration*
 
-A **personal device mesh** built from scratch in **Rust**: mount any paired 
-device's storage as a real FUSE filesystem, stream its screen over an 
-authenticated gRPC channel, and migrate app state between devices — all over 
+A **personal device mesh** built from scratch in **Rust**: mount any paired
+device's storage as a real FUSE filesystem, stream its screen over an
+authenticated gRPC channel, and migrate app state between devices — all over
 an mTLS-encrypted, code-paired connection.
 
-- **Lazy FUSE virtualization** — remote files appear local; bytes move on 
-  demand, not on mount. Multi-writer conflict detection via vector clocks — 
+- **Lazy FUSE virtualization** — remote files appear local; bytes move on
+  demand, not on mount. Multi-writer conflict detection via vector clocks —
   concurrent edits keep both versions, never silently lose data.
-- **Device pairing** — 6-digit code exchange, per-device identity certificates, 
-  mTLS on every connection. No shared secrets passed manually.
-- **Screen streaming** — H.264 encode (QSV/libx264 fallback) → gRPC 
-  bidirectional stream → decode + display, with uinput input injection.
-- **Migration SDK** — app-cooperative state migration with CRDT-style conflict 
-  policies (LastWriteWins / AppMerge / KeepBoth), Android JNI bindings included.
-- **Hardware-verified** — byte-exact reads on a real Android phone → Linux 
-  laptop mount. Authenticated write + large-file streaming confirmed on device.
+- **Device pairing** — 6-digit code exchange, per-device identity certificates,
+  mTLS on every connection. Proven on a real Android phone → Linux laptop mount,
+  byte-exact including chunk-boundary offset reads.
+- **Screen streaming** — H.264 encode (QSV/libx264 fallback) → gRPC
+  bidirectional stream → decode + winit display, with raw uinput input injection.
+- **Migration SDK** — app-cooperative state migration with three conflict
+  policies (LastWriteWins / AppMerge / KeepBoth), Android JNI bindings via
+  the `jni` crate.
+- **Engineering discipline** — 57 tests, CI-gated on every PR (build + test +
+  fmt + clippy), branch-protected main, 14 ADRs documenting every real
+  constraint hit along the way.
 
-Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` · 
-`TLS/mTLS` · `Android (cargo-ndk)`  
-57 tests · CI-gated · branch-protected · 14 ADRs
-
+Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
+`TLS/mTLS` · `Android (cargo-ndk)`
 [→ View Repository](https://github.com/b5119/nexus02)
 
 ---
