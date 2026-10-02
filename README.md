@@ -79,9 +79,9 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 ## ◈ Technical Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,python,dart,ts,js,solidity,html,css&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,flutter,react,tailwind,nodejs,hardhat,vite&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,docker,kubernetes,git,github,githubactions,linux,vscode&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=rust,go,python,php,dart,ts,js,solidity&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,react,flutter,tailwind,nodejs,hardhat&theme=dark&perline=8" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,git,githubactions,linux,vite&theme=dark&perline=8" />
 </p>
 
 <br/>
@@ -91,7 +91,9 @@ Focus: Civic-tech transparency under real infrastructure constraints.
     <td align="right" valign="middle"><b>&nbsp;Languages&nbsp;</b></td>
     <td>
       <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
       <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
       <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
       <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
@@ -108,6 +110,9 @@ Focus: Civic-tech transparency under real infrastructure constraints.
       <img src="https://img.shields.io/badge/FUSE-EE0000?style=for-the-badge&logo=linux&logoColor=white"/>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
       <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Go_(chi)-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+      <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
     </td>
   </tr>
@@ -121,6 +126,8 @@ Focus: Civic-tech transparency under real infrastructure constraints.
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
       <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -128,6 +135,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
     <td>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
       <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
@@ -165,11 +173,11 @@ class FrankBwalya:
 
     engineering_focus = {
         "systems":     ["Rust", "Tokio", "gRPC", "FUSE", "cross-compilation"],
-        "backend":     ["FastAPI", "Flask", "service-layer design", "API orchestration"],
+        "backend":     ["FastAPI", "Flask", "Laravel", "Go (chi)", "OpenAPI", "service-layer design"],
         "blockchain":  ["Solidity", "Hardhat", "OpenZeppelin", "ethers.js", "dApp delivery"],
         "civic_tech":  ["digital identity (ZedLedger)", "gov accountability (SigTrace)", "data-protection compliance"],
         "mobile":      ["Flutter", "Dart", "Android (cargo-ndk)", "offline-first PWAs"],
-        "devops":      ["Docker", "CI/CD", "environment-based configuration"],
+        "devops":      ["Docker", "Redis", "Kafka", "CI/CD", "environment-based configuration"],
     }
 
     principle = (
@@ -188,7 +196,7 @@ class FrankBwalya:
 <p align="center">
   <img src="https://github-readme-stats-b5119.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=letters" width="495"/>
   &nbsp;
-  <img src="https://github-readme-stats-b5119.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=6&hide=jupyter%20notebook" width="300"/>
+  <img src="https://github-readme-stats-b5119.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook" width="300"/>
 </p>
 
 <p align="center">
