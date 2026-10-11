@@ -308,19 +308,19 @@ I am particularly interested in bridging **formal system design principles** wit
 
 | Phase | Status | Driving work | Progress |
 |:--|:--:|:--|:--|
-| **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
-| **Backend Architect** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
-| **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="https://geps.dev/progress/100?successColor=2ea043" height="14"/> |
-| **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh · streaming · pairing | <img src="https://geps.dev/progress/65?successColor=58a6ff&warningColor=58a6ff&dangerColor=58a6ff" height="14"/> |
-| **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="https://geps.dev/progress/10?successColor=bc8cff&warningColor=bc8cff&dangerColor=bc8cff" height="14"/> |
+| **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
+| **Backend Architect** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
+| **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
+| **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh · streaming · pairing | <img src="./assets/progress/65-58a6ff.svg" alt="65% progress" height="14"/> |
+| **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="./assets/progress/10-bc8cff.svg" alt="10% progress" height="14"/> |
 
 </div>
 
 <p align="center">
   <b>Domains already shipped:</b><br/>
-  <img src="https://img.shields.io/badge/Smart_Contracts-ChainBa%20·%20Solidity%20·%20OpenZeppelin%20·%2023%20tests-2ea043?style=flat-square&labelColor=0d1117&logo=solidity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Full--stack_dApp-React%20·%20MetaMask%20·%20Node%2FExpress-2ea043?style=flat-square&labelColor=0d1117&logo=ethereum&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Backend_services-FastAPI%20·%20Flask-2ea043?style=flat-square&labelColor=0d1117&logo=fastapi&logoColor=white"/>
+  <img src="./assets/badges/shipped-smart-contracts.svg" alt="Smart Contracts"/>
+  <img src="./assets/badges/shipped-full-stack-dapp.svg" alt="Full-stack dApp"/>
+  <img src="./assets/badges/shipped-backend-services.svg" alt="Backend services"/>
 </p>
 
 Not just code that runs. **Systems that endure.**
