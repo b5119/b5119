@@ -5,10 +5,10 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/frank-bwalya-64b124275">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+    <img src="./assets/badges/linkedin.svg" alt="LinkedIn"/>
   </a>
   <a href="mailto:bwalyafrank61@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="./assets/badges/email.svg" alt="Email"/>
   </a>
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"/>
 </p>
@@ -90,69 +90,69 @@ Focus: Civic-tech transparency under real infrastructure constraints.
   <tr>
     <td align="right" valign="middle"><b>&nbsp;Languages&nbsp;</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"/>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+      <img src="./assets/badges/rust.svg" alt="Rust"/>
+      <img src="./assets/badges/go.svg" alt="Go"/>
+      <img src="./assets/badges/python.svg" alt="Python"/>
+      <img src="./assets/badges/php.svg" alt="PHP"/>
+      <img src="./assets/badges/dart.svg" alt="Dart"/>
+      <img src="./assets/badges/solidity.svg" alt="Solidity"/>
+      <img src="./assets/badges/typescript.svg" alt="TypeScript"/>
+      <img src="./assets/badges/javascript.svg" alt="JavaScript"/>
+      <img src="./assets/badges/sql.svg" alt="SQL"/>
     </td>
   </tr>
   <tr>
     <td align="right" valign="middle"><b>&nbsp;Systems&nbsp;&amp;&nbsp;Backend&nbsp;</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Tokio-000000?style=for-the-badge&logo=rust&logoColor=white"/>
-      <img src="https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Protobuf-EA4335?style=for-the-badge&logo=protobuf&logoColor=white"/>
-      <img src="https://img.shields.io/badge/FUSE-EE0000?style=for-the-badge&logo=linux&logoColor=white"/>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Go_(chi)-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
-      <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+      <img src="./assets/badges/tokio.svg" alt="Tokio"/>
+      <img src="./assets/badges/grpc.svg" alt="gRPC"/>
+      <img src="./assets/badges/protobuf.svg" alt="Protobuf"/>
+      <img src="./assets/badges/fuse.svg" alt="FUSE"/>
+      <img src="./assets/badges/fastapi.svg" alt="FastAPI"/>
+      <img src="./assets/badges/flask.svg" alt="Flask"/>
+      <img src="./assets/badges/laravel.svg" alt="Laravel"/>
+      <img src="./assets/badges/go-chi.svg" alt="Go (chi)"/>
+      <img src="./assets/badges/openapi.svg" alt="OpenAPI"/>
+      <img src="./assets/badges/swagger.svg" alt="Swagger"/>
+      <img src="./assets/badges/postgresql.svg" alt="PostgreSQL"/>
     </td>
   </tr>
   <tr>
     <td align="right" valign="middle"><b>&nbsp;Blockchain&nbsp;&amp;&nbsp;Frontend&nbsp;</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=ethereum&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Hyperledger_Fabric-2F3134?style=for-the-badge&logo=hyperledger&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Polygon-7B3FE4?style=for-the-badge&logo=polygon&logoColor=white"/>
-      <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white"/>
+      <img src="./assets/badges/hardhat.svg" alt="Hardhat"/>
+      <img src="./assets/badges/hyperledger-fabric.svg" alt="Hyperledger Fabric"/>
+      <img src="./assets/badges/polygon.svg" alt="Polygon"/>
+      <img src="./assets/badges/ipfs.svg" alt="IPFS"/>
+      <img src="./assets/badges/react.svg" alt="React"/>
+      <img src="./assets/badges/flutter.svg" alt="Flutter"/>
+      <img src="./assets/badges/tailwind.svg" alt="Tailwind"/>
+      <img src="./assets/badges/bootstrap.svg" alt="Bootstrap"/>
+      <img src="./assets/badges/vite.svg" alt="Vite"/>
+      <img src="./assets/badges/livewire.svg" alt="Livewire"/>
     </td>
   </tr>
   <tr>
     <td align="right" valign="middle"><b>&nbsp;Infra&nbsp;&amp;&nbsp;Tooling&nbsp;</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white"/>
-      <img src="https://img.shields.io/badge/SSH-000000?style=for-the-badge&logo=gnubash&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-      <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+      <img src="./assets/badges/docker.svg" alt="Docker"/>
+      <img src="./assets/badges/linux-ubuntu.svg" alt="Linux (Ubuntu)"/>
+      <img src="./assets/badges/aws.svg" alt="AWS"/>
+      <img src="./assets/badges/tailscale.svg" alt="Tailscale"/>
+      <img src="./assets/badges/ssh.svg" alt="SSH"/>
+      <img src="./assets/badges/git.svg" alt="Git"/>
+      <img src="./assets/badges/github-actions.svg" alt="GitHub Actions"/>
+      <img src="./assets/badges/vs-code.svg" alt="VS Code"/>
     </td>
   </tr>
   <tr>
     <td align="right" valign="middle"><b>&nbsp;Integrating&nbsp;in&nbsp;2026&nbsp;</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Cloud_Deployment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
-      <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
+      <img src="./assets/badges/cloud-deployment.svg" alt="Cloud Deployment"/>
+      <img src="./assets/badges/kubernetes.svg" alt="Kubernetes"/>
+      <img src="./assets/badges/redis.svg" alt="Redis"/>
+      <img src="./assets/badges/kafka.svg" alt="Kafka"/>
+      <img src="./assets/badges/graphql.svg" alt="GraphQL"/>
     </td>
   </tr>
 </table>
