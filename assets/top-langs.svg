@@ -1,0 +1,36 @@
+<svg width="300" height="205" viewBox="0 0 300 205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages, weighted by commits">
+<rect width="300" height="205" rx="4.5" fill="#0d1117"/>
+<text x="25" y="35" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="600" fill="#58a6ff">Most Used Languages</text>
+<rect x="25.00" y="55" width="88.45" height="8" rx="4" fill="#00ADD8"/>
+<rect x="69.22" y="55" width="44.22" height="8" fill="#00ADD8"/>
+<rect x="113.45" y="55" width="38.92" height="8" fill="#3572A5"/>
+<rect x="152.37" y="55" width="24.42" height="8" fill="#e34c26"/>
+<rect x="176.78" y="55" width="24.32" height="8" fill="#3178c6"/>
+<rect x="201.11" y="55" width="18.40" height="8" fill="#00B4AB"/>
+<rect x="219.51" y="55" width="17.15" height="8" fill="#dea584"/>
+<rect x="236.66" y="55" width="15.39" height="8" fill="#A97BFF"/>
+<rect x="252.04" y="55" width="10.38" height="8" fill="#f1e05a"/>
+<rect x="262.42" y="55" width="7.30" height="8" fill="#663399"/>
+<rect x="269.72" y="55" width="5.28" height="8" rx="4" fill="#336790"/>
+<rect x="269.72" y="55" width="2.64" height="8" fill="#336790"/>
+<circle cx="30" cy="81" r="5" fill="#00ADD8"/>
+<text x="40" y="85" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Go 35.38%</text>
+<circle cx="155" cy="81" r="5" fill="#3572A5"/>
+<text x="165" y="85" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Python 15.57%</text>
+<circle cx="30" cy="106" r="5" fill="#e34c26"/>
+<text x="40" y="110" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">HTML 9.77%</text>
+<circle cx="155" cy="106" r="5" fill="#3178c6"/>
+<text x="165" y="110" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">TypeScript 9.73%</text>
+<circle cx="30" cy="131" r="5" fill="#00B4AB"/>
+<text x="40" y="135" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Dart 7.36%</text>
+<circle cx="155" cy="131" r="5" fill="#dea584"/>
+<text x="165" y="135" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Rust 6.86%</text>
+<circle cx="30" cy="156" r="5" fill="#A97BFF"/>
+<text x="40" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">Kotlin 6.16%</text>
+<circle cx="155" cy="156" r="5" fill="#f1e05a"/>
+<text x="165" y="160" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">JavaScript 4.15%</text>
+<circle cx="30" cy="181" r="5" fill="#663399"/>
+<text x="40" y="185" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">CSS 2.92%</text>
+<circle cx="155" cy="181" r="5" fill="#336790"/>
+<text x="165" y="185" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">PLpgSQL 2.11%</text>
+</svg>

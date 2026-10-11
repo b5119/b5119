@@ -201,7 +201,7 @@ class FrankBwalya:
 <p align="center">
   <img src="https://github-readme-stats-b5119.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=letters" width="495"/>
   &nbsp;
-  <img src="https://github-readme-stats-b5119.vercel.app/api/top-langs/?username=b5119&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10&hide=jupyter%20notebook" width="300"/>
+  <img src="./assets/top-langs.svg" alt="Most used languages, weighted by commits across all repos I contribute to" width="300"/>
 </p>
 
 <p align="center">
