@@ -81,7 +81,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 <p align="center">
   <img src="https://skillicons.dev/icons?i=rust,go,python,php,dart,ts,js,solidity&theme=dark&perline=8" /><br/>
   <img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,react,flutter,tailwind,nodejs,hardhat&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,redis,kafka,docker,git,githubactions,linux,vite&theme=dark&perline=8" />
+  <img src="https://skillicons.dev/icons?i=postgres,sqlite,aws,docker,git,githubactions,linux,vite&theme=dark&perline=8" />
 </p>
 
 <br/>
@@ -113,6 +113,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
       <img src="https://img.shields.io/badge/Go_(chi)-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
       <img src="https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
     </td>
   </tr>
@@ -126,6 +127,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
       <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/>
       <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
       <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
       <img src="https://img.shields.io/badge/Livewire-FB70A9?style=for-the-badge&logo=livewire&logoColor=white"/>
     </td>
@@ -135,7 +137,9 @@ Focus: Civic-tech transparency under real infrastructure constraints.
     <td>
       <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
       <img src="https://img.shields.io/badge/Linux_(Ubuntu)-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SSH-000000?style=for-the-badge&logo=gnubash&logoColor=white"/>
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
       <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
       <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
@@ -147,6 +151,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
       <img src="https://img.shields.io/badge/Cloud_Deployment-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
       <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
       <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white"/>
       <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
     </td>
   </tr>
@@ -173,11 +178,11 @@ class FrankBwalya:
 
     engineering_focus = {
         "systems":     ["Rust", "Tokio", "gRPC", "FUSE", "cross-compilation"],
-        "backend":     ["FastAPI", "Flask", "Laravel", "Go (chi)", "OpenAPI", "service-layer design"],
+        "backend":     ["FastAPI", "Flask", "Laravel", "Go (chi)", "OpenAPI / Swagger", "service-layer design"],
         "blockchain":  ["Solidity", "Hardhat", "OpenZeppelin", "ethers.js", "dApp delivery"],
         "civic_tech":  ["digital identity (ZedLedger)", "gov accountability (SigTrace)", "data-protection compliance"],
         "mobile":      ["Flutter", "Dart", "Android (cargo-ndk)", "offline-first PWAs"],
-        "devops":      ["Docker", "Redis", "Kafka", "CI/CD", "environment-based configuration"],
+        "devops":      ["Docker", "AWS deployment", "Tailscale + SSH", "CI/CD", "environment-based configuration"],
     }
 
     principle = (
