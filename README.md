@@ -15,7 +15,7 @@
 
 ---
 
-## ◈ The Mindset
+## ◈ Mindset
 
 > Most developers build features. I'm learning to design **systems**.
 
