@@ -59,7 +59,8 @@ an mTLS-encrypted, code-paired connection.
 
 Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
 `TLS/mTLS` · `Android (cargo-ndk)`
-[→ View Repository](https://github.com/b5119/nexus)
+[→ View Repository](https://github.com/b5119/nexus)  
+Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapper stitching, zero data lost).
 
 ---
 
@@ -316,7 +317,7 @@ I am particularly interested in bridging **formal system design principles** wit
 <!-- Animated roadmap: a data packet travels the track through each milestone on a loop.
      Source: assets/roadmap.svg (hand-authored animated SVG) -->
 <p align="center">
-  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Architect and Smart Contracts to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
+  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Engineer and Smart Contracts to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
 </p>
 
 <div align="center">
@@ -324,7 +325,7 @@ I am particularly interested in bridging **formal system design principles** wit
 | Phase | Status | Driving work | Progress |
 |:--|:--:|:--|:--|
 | **Application Builder** | ✅ Done | Multi-API Flask dashboards | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
-| **Backend Architect** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
+| **Backend Engineer** | ✅ Done | API Hub · Flask service-layer & blueprints | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
 | **Smart Contracts & dApps** | ✅ Done | **ChainBa** · Solidity · OpenZeppelin · 23 tests | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> |
 | **Distributed Systems Engineer** | 🔵 In progress | **Nexus** · gRPC · FUSE · device mesh · streaming · pairing | <img src="./assets/progress/65-58a6ff.svg" alt="65% progress" height="14"/> |
 | **Systems Architect** | 🎯 Horizon | Designing the structures themselves | <img src="./assets/progress/10-bc8cff.svg" alt="10% progress" height="14"/> |
