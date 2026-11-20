@@ -103,84 +103,18 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 ## ◈ Technical Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,python,php,dart,ts,js,solidity&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,react,flutter,tailwind,nodejs,hardhat&theme=dark&perline=8" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,sqlite,aws,docker,git,githubactions,linux,vite&theme=dark&perline=8" />
-</p>
+<div align="center">
 
-<br/>
+| | |
+|:--|:--|
+| **Languages**<br/><sub>what I ship in</sub> | <img src="https://skillicons.dev/icons?i=rust,go,python,ts,dart,solidity,kotlin&theme=dark" alt="Rust, Go, Python, TypeScript, Dart, Solidity, Kotlin"/> |
+| **Backend & Apps**<br/><sub>services, APIs, clients</sub> | <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,react,flutter,hardhat&theme=dark" alt="FastAPI, Flask, Node.js, React, Flutter, Hardhat"/> |
+| **Data & Infra**<br/><sub>storage, delivery, CI</sub> | <img src="https://skillicons.dev/icons?i=postgres,sqlite,supabase,docker,aws,githubactions,linux&theme=dark" alt="PostgreSQL, SQLite, Supabase, Docker, AWS, GitHub Actions, Linux"/> |
+| **Integrating in 2026**<br/><sub>actively learning</sub> | <img src="https://skillicons.dev/icons?i=kubernetes,redis,graphql&theme=dark" alt="Kubernetes, Redis, GraphQL"/> |
 
-<table align="center">
-  <tr>
-    <td align="right" valign="middle"><b>&nbsp;Languages&nbsp;</b></td>
-    <td>
-      <img src="./assets/badges/rust.svg" alt="Rust"/>
-      <img src="./assets/badges/go.svg" alt="Go"/>
-      <img src="./assets/badges/python.svg" alt="Python"/>
-      <img src="./assets/badges/php.svg" alt="PHP"/>
-      <img src="./assets/badges/dart.svg" alt="Dart"/>
-      <img src="./assets/badges/solidity.svg" alt="Solidity"/>
-      <img src="./assets/badges/typescript.svg" alt="TypeScript"/>
-      <img src="./assets/badges/javascript.svg" alt="JavaScript"/>
-      <img src="./assets/badges/sql.svg" alt="SQL"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><b>&nbsp;Systems&nbsp;&amp;&nbsp;Backend&nbsp;</b></td>
-    <td>
-      <img src="./assets/badges/tokio.svg" alt="Tokio"/>
-      <img src="./assets/badges/grpc.svg" alt="gRPC"/>
-      <img src="./assets/badges/protobuf.svg" alt="Protobuf"/>
-      <img src="./assets/badges/fuse.svg" alt="FUSE"/>
-      <img src="./assets/badges/fastapi.svg" alt="FastAPI"/>
-      <img src="./assets/badges/flask.svg" alt="Flask"/>
-      <img src="./assets/badges/laravel.svg" alt="Laravel"/>
-      <img src="./assets/badges/go-chi.svg" alt="Go (chi)"/>
-      <img src="./assets/badges/openapi.svg" alt="OpenAPI"/>
-      <img src="./assets/badges/swagger.svg" alt="Swagger"/>
-      <img src="./assets/badges/postgresql.svg" alt="PostgreSQL"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><b>&nbsp;Blockchain&nbsp;&amp;&nbsp;Frontend&nbsp;</b></td>
-    <td>
-      <img src="./assets/badges/hardhat.svg" alt="Hardhat"/>
-      <img src="./assets/badges/hyperledger-fabric.svg" alt="Hyperledger Fabric"/>
-      <img src="./assets/badges/polygon.svg" alt="Polygon"/>
-      <img src="./assets/badges/ipfs.svg" alt="IPFS"/>
-      <img src="./assets/badges/react.svg" alt="React"/>
-      <img src="./assets/badges/flutter.svg" alt="Flutter"/>
-      <img src="./assets/badges/tailwind.svg" alt="Tailwind"/>
-      <img src="./assets/badges/bootstrap.svg" alt="Bootstrap"/>
-      <img src="./assets/badges/vite.svg" alt="Vite"/>
-      <img src="./assets/badges/livewire.svg" alt="Livewire"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><b>&nbsp;Infra&nbsp;&amp;&nbsp;Tooling&nbsp;</b></td>
-    <td>
-      <img src="./assets/badges/docker.svg" alt="Docker"/>
-      <img src="./assets/badges/linux-ubuntu.svg" alt="Linux (Ubuntu)"/>
-      <img src="./assets/badges/aws.svg" alt="AWS"/>
-      <img src="./assets/badges/tailscale.svg" alt="Tailscale"/>
-      <img src="./assets/badges/ssh.svg" alt="SSH"/>
-      <img src="./assets/badges/git.svg" alt="Git"/>
-      <img src="./assets/badges/github-actions.svg" alt="GitHub Actions"/>
-      <img src="./assets/badges/vs-code.svg" alt="VS Code"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><b>&nbsp;Integrating&nbsp;in&nbsp;2026&nbsp;</b></td>
-    <td>
-      <img src="./assets/badges/cloud-deployment.svg" alt="Cloud Deployment"/>
-      <img src="./assets/badges/kubernetes.svg" alt="Kubernetes"/>
-      <img src="./assets/badges/redis.svg" alt="Redis"/>
-      <img src="./assets/badges/kafka.svg" alt="Kafka"/>
-      <img src="./assets/badges/graphql.svg" alt="GraphQL"/>
-    </td>
-  </tr>
-</table>
+<sub>Also in the toolbox: gRPC · Tokio · FUSE · OpenAPI · Hyperledger Fabric · Polygon · IPFS</sub>
+
+</div>
 
 ---
 
