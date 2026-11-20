@@ -34,7 +34,7 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ What I'm Actually Working On
 
-#### `01` — Nexus — Personal Device Mesh *(Active)*
+#### `01` — Nexus — Personal Device Mesh *(Active · file mesh and screen streaming working; Android file access designed)*
 > *Paired devices, one authenticated mesh — filesystem, streaming, migration*
 
 A **personal device mesh** built from scratch in **Rust**: mount any paired
@@ -53,8 +53,8 @@ an mTLS-encrypted, code-paired connection.
 - **Migration SDK** — app-cooperative state migration with three conflict
   policies (LastWriteWins / AppMerge / KeepBoth), Android JNI bindings via
   the `jni` crate.
-- **Engineering discipline** — 57 tests, CI-gated on every PR (build + test +
-  fmt + clippy), branch-protected main, 14 ADRs documenting every real
+- **Engineering discipline** — 100+ tests, CI-gated on every PR (build + test +
+  fmt + clippy), branch-protected main, 17 ADRs documenting every real
   constraint hit along the way.
 
 Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
@@ -64,12 +64,12 @@ Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapp
 
 ---
 
-### `02` — CDF SigTrace — Blockchain Accountability Framework *(In Progress)*
+### `02` — CDF SigTrace — Blockchain Accountability Framework *(Prototype complete · deployed with demonstration data · final-year project)*
 > *Making public money provable, not just trackable*
 
 A **blockchain-anchored accountability framework** for Zambia's Constituency Development Fund and government procurement — two systems, **SigTrace** (procurement contract integrity) and **CDF Pulse** (field-delivery verification), joined by a monitor that flags ghost projects.
 
-- **Dual-ledger anchoring** — Hyperledger Fabric for institutional membership, Polygon for citizen-verifiable confirmations
+- **Dual-ledger anchoring** — Hyperledger Fabric for institutional membership, Polygon for citizen-verifiable confirmations *(both simulated in the prototype; no live institutional data yet)*
 - **Privacy by architecture** — personal data stays off-chain; only hashes and non-personal metadata are written
 - **Risk signals, not verdicts** — every analytical output is a flag requiring human review, never a determination of wrongdoing
 - **Offline-first field app** — CDF Pulse PWA for delivery verification where connectivity isn't guaranteed
