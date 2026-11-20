@@ -10,9 +10,6 @@
   <a href="mailto:bwalyafrank61@gmail.com">
     <img src="./assets/badges/email.svg" alt="Email"/>
   </a>
-  <a href="./cv/Frank_Bwalya_CV.pdf">
-    <img src="https://img.shields.io/badge/CV-Download_PDF-58A6FF?style=for-the-badge" alt="Download CV"/>
-  </a>
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"/>
 </p>
 
@@ -247,7 +244,7 @@ Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL
 | **Kwacha Yield** — Zambian T-Bill and Bond investor companion *(Vector Zero)* | Frontend lead | Expo / React Native app: PIN and security, securities, yield calculator, portfolio, alerts; 9 merged PRs, CI on every PR |
 | **ViewLock** — Android screen-privacy app *(Vector Zero)* | Android developer | Kotlin / Compose: screenshot detection, service lifecycle and privacy fixes, unified design system |
 
-🔒 Private repositories — walkthroughs available on request. Full details in my [CV](./cv/Frank_Bwalya_CV.pdf).
+🔒 Private repositories — walkthroughs available on request.
 
 ---
 
@@ -299,7 +296,7 @@ I am actively seeking:
 
 If you are building structured, scalable systems — I am interested in contributing seriously, not superficially.
 
-📧 **bwalyafrank61@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/frank-bwalya-64b124275) · 📄 [CV (PDF)](./cv/Frank_Bwalya_CV.pdf)
+📧 **bwalyafrank61@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/frank-bwalya-64b124275)
 
 ### Research Direction
 
@@ -346,8 +343,7 @@ Not just code that runs. **Systems that endure.**
 ## ◈ Let's Connect
 
 📧 **Email:** bwalyafrank61@gmail.com  
-💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)  
-📄 **CV:** [Download PDF](./cv/Frank_Bwalya_CV.pdf)
+💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)
 
 ---
 
