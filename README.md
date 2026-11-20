@@ -29,6 +29,18 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ---
 
+## ◈ At a Glance
+
+| | |
+|:--|:--|
+| 🏆 **Award** | 1st place, 2026 ZAMREN Student Hackathon (ZedLedger) |
+| 🔧 **Shipped** | 100+ merged pull requests across 11 repositories; Flutter internship shipping offline-first features to production |
+| 🦀 **Core stack** | Rust · Go · Python · TypeScript · Dart · Solidity |
+| 🎓 **Studying** | BSc Software Engineering, ZCAS University (final year) |
+| 🔎 **Open to** | Backend / distributed-systems internships and open-source collaboration |
+
+---
+
 ## ◈ What I'm Actually Working On
 
 #### `01` — Nexus — Personal Device Mesh *(Active · file mesh and screen streaming working; Android file access designed)*
@@ -61,7 +73,7 @@ Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapp
 
 ---
 
-### `02` — CDF SigTrace — Blockchain Accountability Framework *(Prototype complete · deployed with demonstration data · final-year project)*
+### `02` — CDF SigTrace — Blockchain Accountability Framework *(Final-year project · prototype complete)*
 > *Making public money provable, not just trackable*
 
 A **blockchain-anchored accountability framework** for Zambia's Constituency Development Fund and government procurement — two systems, **SigTrace** (procurement contract integrity) and **CDF Pulse** (field-delivery verification), joined by a monitor that flags ghost projects.
@@ -74,6 +86,18 @@ A **blockchain-anchored accountability framework** for Zambia's Constituency Dev
 Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabric` · `Polygon` · `React`  
 Focus: Civic-tech transparency under real infrastructure constraints.  
 🌐 [Live demo (demonstration data)](https://frontend-public-app.vercel.app) · 🔒 Source private — walkthrough available on request
+
+---
+
+## ◈ Team & Client Work
+
+| Project | Role | What I shipped |
+|:--|:--|:--|
+| **BantuSave** — digitised Chilimba savings platform | Backend contributor, five-person team | 280+ commits and 54 merged PRs in a Go codebase (~45k lines): payout/disbursement engine, KYC decision and recheck-before-payout, reconciliation thresholds and exception workflow |
+| **Kwacha Yield** — Zambian T-Bill and Bond investor companion *(Vector Zero)* | Frontend lead | Expo / React Native app: PIN and security, securities, yield calculator, portfolio, alerts; 9 merged PRs, CI on every PR |
+| **ViewLock** — Android screen-privacy app *(Vector Zero)* | Android developer | Kotlin / Compose: screenshot detection, service lifecycle and privacy fixes, unified design system |
+
+🔒 Private repositories — walkthroughs available on request.
 
 ---
 
@@ -235,16 +259,6 @@ Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL
 🔒 Private (hackathon repo) — walkthrough available on request
 
 ---
-
-### 🤝 Team & Client Work
-
-| Project | Role | What I shipped |
-|:--|:--|:--|
-| **BantuSave** — digitised Chilimba savings platform | Backend contributor, five-person team | 280+ commits and 54 merged PRs in a Go codebase (~45k lines): payout/disbursement engine, KYC decision and recheck-before-payout, reconciliation thresholds and exception workflow |
-| **Kwacha Yield** — Zambian T-Bill and Bond investor companion *(Vector Zero)* | Frontend lead | Expo / React Native app: PIN and security, securities, yield calculator, portfolio, alerts; 9 merged PRs, CI on every PR |
-| **ViewLock** — Android screen-privacy app *(Vector Zero)* | Android developer | Kotlin / Compose: screenshot detection, service lifecycle and privacy fixes, unified design system |
-
-🔒 Private repositories — walkthroughs available on request.
 
 ---
 
