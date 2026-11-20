@@ -107,12 +107,14 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 | | |
 |:--|:--|
-| **Languages**<br/><sub>what I ship in</sub> | <img src="https://skillicons.dev/icons?i=rust,go,python,ts,dart,solidity,kotlin&theme=dark" alt="Rust, Go, Python, TypeScript, Dart, Solidity, Kotlin"/> |
-| **Backend & Apps**<br/><sub>services, APIs, clients</sub> | <img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,react,flutter,hardhat&theme=dark" alt="FastAPI, Flask, Node.js, React, Flutter, Hardhat"/> |
-| **Data & Infra**<br/><sub>storage, delivery, CI</sub> | <img src="https://skillicons.dev/icons?i=postgres,sqlite,supabase,docker,aws,githubactions,linux&theme=dark" alt="PostgreSQL, SQLite, Supabase, Docker, AWS, GitHub Actions, Linux"/> |
-| **Integrating in 2026**<br/><sub>actively learning</sub> | <img src="https://skillicons.dev/icons?i=kubernetes,redis,graphql&theme=dark" alt="Kubernetes, Redis, GraphQL"/> |
-
-<sub>Also in the toolbox: gRPC · Tokio · FUSE · OpenAPI · Hyperledger Fabric · Polygon · IPFS</sub>
+| **Languages**<br/><sub>what I ship in</sub> | <img src="https://skillicons.dev/icons?i=rust,go,python,ts,js,dart,kotlin,solidity&theme=dark" alt="Rust, Go, Python, TypeScript, JavaScript, Dart, Kotlin, Solidity"/><br/><img src="https://skillicons.dev/icons?i=java,cs,php,bash,sql&theme=dark" alt="Java, C#, PHP, Bash, SQL"/> |
+| **Backend & APIs**<br/><sub>services and contracts</sub> | <img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,nodejs,dotnet,swagger&theme=dark" alt="FastAPI, Flask, Laravel, Node.js, .NET, Swagger"/><br/><img src="./assets/badges/go-chi.svg" alt="go-chi"/> <img src="./assets/badges/openapi.svg" alt="openapi"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/> |
+| **Systems**<br/><sub>low-level and distributed</sub> | <img src="./assets/badges/tokio.svg" alt="tokio"/> <img src="./assets/badges/fuse.svg" alt="fuse"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/> <img src="./assets/badges/tailscale.svg" alt="tailscale"/> <img src="./assets/badges/ssh.svg" alt="ssh"/> |
+| **Blockchain**<br/><sub>contracts and anchoring</sub> | <img src="https://skillicons.dev/icons?i=solidity,hardhat&theme=dark" alt="Solidity, Hardhat"/><br/><img src="./assets/badges/hyperledger-fabric.svg" alt="hyperledger-fabric"/> <img src="./assets/badges/polygon.svg" alt="polygon"/> <img src="./assets/badges/ipfs.svg" alt="ipfs"/> |
+| **Frontend & Mobile**<br/><sub>web and cross-platform</sub> | <img src="https://skillicons.dev/icons?i=flutter,dart,react,angular,kotlin,tailwind,bootstrap,vite&theme=dark" alt="Flutter, Dart, React, Angular, Kotlin, Tailwind, Bootstrap, Vite"/> |
+| **Data**<br/><sub>storage</sub> | <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,firebase,supabase&theme=dark" alt="PostgreSQL, SQLite, MongoDB, Firebase, Supabase"/> |
+| **Infra & Tooling**<br/><sub>delivery and workflow</sub> | <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,ubuntu,git,neovim,vscode&theme=dark" alt="Docker, AWS, GitHub Actions, Linux, Ubuntu, Git, Neovim, VS Code"/> |
+| **Integrating in 2026**<br/><sub>actively learning</sub> | <img src="https://skillicons.dev/icons?i=kubernetes,kafka,graphql,redis&theme=dark" alt="Kubernetes, Kafka, GraphQL, Redis"/> |
 
 </div>
 
