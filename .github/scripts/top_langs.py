@@ -108,33 +108,45 @@ def collect():
 
 
 def render(weights, colors):
+    """Doom-themed animated chart: bars charge up in sequence, then reset and loop."""
     top = weights.most_common(TOP_N)
     total = sum(w for _, w in top) or 1
-    width, bar_x, bar_w = 300, 25, 250
-    height = 55 + 25 * ((len(top) + 1) // 2) + 25
+    biggest = top[0][1] if top else 1
+    width, row_h, track_x, track_w = 380, 21, 118, 190
+    height = 62 + row_h * len(top) + 14
+    font = "'Fira Code','JetBrains Mono',Consolas,monospace"
     out = [
         f'<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" '
         'xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages, weighted by commits">',
-        f'<rect width="{width}" height="{height}" rx="4.5" fill="#0d1117"/>',
-        '<text x="25" y="35" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18" font-weight="600" fill="#58a6ff">Most Used Languages</text>',
+        '<defs>'
+        '<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0e1a14"/><stop offset="1" stop-color="#060908"/></linearGradient>'
+        '<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1f7a46"/><stop offset="1" stop-color="#3ddc84"/></linearGradient>'
+        '<filter id="glow" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="2" result="b"/>'
+        '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
+        '</defs>',
+        f'<rect x="0.75" y="0.75" width="{width - 1.5}" height="{height - 1.5}" rx="8" fill="url(#bg)" stroke="#1f3a2b" stroke-width="1.5"/>',
+        f'<text x="20" y="30" font-family="{font}" font-size="14" font-weight="700" letter-spacing="3" fill="#3ddc84">ARSENAL</text>',
+        f'<text x="20" y="46" font-family="{font}" font-size="9.5" letter-spacing="1" fill="#c9a227">most used languages · weighted by commits</text>',
+        f'<path d="M20 52 H{width - 20}" stroke="#1f3a2b" stroke-width="1"/>',
+        f'<path d="M20 52 H90" stroke="#c9a227" stroke-width="1.5"/>',
     ]
-    x = bar_x
     for i, (lang, w) in enumerate(top):
-        seg = bar_w * w / total
-        col = colors[lang]
-        if i == 0 or i == len(top) - 1:
-            # rounded end cap: a rounded rect plus a square one over its inner half
-            out.append(f'<rect x="{x:.2f}" y="55" width="{seg:.2f}" height="8" rx="4" fill="{col}"/>')
-            sq_x = x + seg / 2 if i == 0 else x
-            out.append(f'<rect x="{sq_x:.2f}" y="55" width="{seg / 2:.2f}" height="8" fill="{col}"/>')
-        else:
-            out.append(f'<rect x="{x:.2f}" y="55" width="{seg:.2f}" height="8" fill="{col}"/>')
-        x += seg
-    for i, (lang, w) in enumerate(top):
-        cx = 25 + (i % 2) * 125
-        cy = 85 + (i // 2) * 25
-        out.append(f'<circle cx="{cx + 5}" cy="{cy - 4}" r="5" fill="{colors[lang]}"/>')
-        out.append(f'<text x="{cx + 15}" y="{cy}" font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c9d1d9">{escape(lang)} {100 * w / total:.2f}%</text>')
+        y = 62 + i * row_h
+        pct = 100 * w / total
+        fill_w = track_w * w / biggest
+        delay = f"{i * 0.18:.2f}s"
+        out.append(f'<circle cx="26" cy="{y + 9}" r="4" fill="{colors[lang]}"/>')
+        out.append(f'<text x="38" y="{y + 12.5}" font-family="{font}" font-size="11" fill="#cfe8d8">{escape(lang)}</text>')
+        out.append(f'<rect x="{track_x}" y="{y + 5}" width="{track_w}" height="8" rx="4" fill="#13261b"/>')
+        out.append(
+            f'<rect x="{track_x}" y="{y + 5}" width="0" height="8" rx="4" fill="url(#bar)" filter="url(#glow)">'
+            f'<animate attributeName="width" values="0;{fill_w:.1f};{fill_w:.1f};0" keyTimes="0;0.14;0.9;1" '
+            f'dur="9s" begin="{delay}" repeatCount="indefinite" calcMode="spline" keySplines="0.2 0.8 0.2 1;0 0 1 1;0.4 0 1 1"/></rect>'
+        )
+        out.append(
+            f'<text x="{width - 20}" y="{y + 12.5}" text-anchor="end" font-family="{font}" font-size="10.5" fill="#3ddc84" opacity="0">{pct:.1f}%'
+            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.9;1" dur="9s" begin="{delay}" repeatCount="indefinite"/></text>'
+        )
     out.append("</svg>")
     return "\n".join(out) + "\n"
 

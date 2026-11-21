@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" width="960" height="250" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" role="img" aria-label="Frank Bwalya. Systems thinker. Backend and distributed systems engineer, Lusaka, Zambia.">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050807"/><stop offset="0.6" stop-color="#0b1812"/><stop offset="1" stop-color="#06100b"/></linearGradient>
+<linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ddc84"/><stop offset="0.55" stop-color="#d9ffe9"/><stop offset="1" stop-color="#3ddc84"/></linearGradient>
+<linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ddc84" stop-opacity="0"/><stop offset="0.5" stop-color="#3ddc84" stop-opacity="0.22"/><stop offset="1" stop-color="#3ddc84" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3ddc84" stop-opacity="0.35"/><stop offset="1" stop-color="#3ddc84" stop-opacity="0"/></radialGradient>
+<pattern id="hex" width="28" height="48.5" patternUnits="userSpaceOnUse" patternTransform="scale(1)"><path d="M14 0 L28 8 V24 L14 32 L0 24 V8 Z M14 32 V48.5 M0 24 L-0 40.5 M28 24 V40.5" fill="none" stroke="#3ddc84" stroke-opacity="0.07" stroke-width="1"/></pattern>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="3.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="card"><rect x="1" y="1" width="958" height="248" rx="14"/></clipPath>
+</defs>
+<rect x="1" y="1" width="958" height="248" rx="14" fill="url(#bg)" stroke="#1f3a2b" stroke-width="1.5"/>
+<g clip-path="url(#card)">
+<rect width="960" height="250" fill="url(#hex)"/>
+<circle cx="150" cy="125" r="130" fill="url(#halo)"><animate attributeName="opacity" values="0.6;1;0.6" dur="5s" repeatCount="indefinite"/></circle>
+<rect x="-240" y="0" width="240" height="250" fill="url(#sweep)"><animate attributeName="x" values="-240;960" dur="7s" repeatCount="indefinite"/></rect>
+
+<g transform="translate(150 125)" filter="url(#glow)">
+<g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+<circle r="86" fill="none" stroke="#3ddc84" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="3 9"/>
+<polygon points="0,-78 67.5,-39 67.5,39 0,78 -67.5,39 -67.5,-39" fill="none" stroke="#2ea043" stroke-width="1.6"/></g>
+<g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
+<polygon points="0,-56 48.5,28 -48.5,28" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+<polygon points="0,56 48.5,-28 -48.5,-28" fill="none" stroke="#c9a227" stroke-opacity="0.6" stroke-width="1.2"/></g>
+<circle r="30" fill="#07110c" stroke="#3ddc84" stroke-width="1.8"/>
+<text y="9" text-anchor="middle" font-size="26" font-weight="700" fill="#3ddc84" letter-spacing="1">FB<animate attributeName="opacity" values="1;1;0.75;1;1;0.9;1" dur="6s" repeatCount="indefinite"/></text>
+</g>
+
+<circle cx="581" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="10.7s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10.7s" begin="2.4s" repeatCount="indefinite"/></circle>
+<circle cx="324" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="9.9s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9.9s" begin="0.6s" repeatCount="indefinite"/></circle>
+<circle cx="309" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="10.5s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10.5s" begin="1.3s" repeatCount="indefinite"/></circle>
+<circle cx="694" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="7.5s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7.5s" begin="1.4s" repeatCount="indefinite"/></circle>
+<circle cx="684" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.4s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.4s" begin="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="895" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="8.8s" begin="5.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8.8s" begin="5.7s" repeatCount="indefinite"/></circle>
+<circle cx="849" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="7.4s" begin="5.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="7.4s" begin="5.9s" repeatCount="indefinite"/></circle>
+<circle cx="820" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="10.2s" begin="1.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="10.2s" begin="1.7s" repeatCount="indefinite"/></circle>
+<circle cx="803" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.7s" begin="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.7s" begin="1.9s" repeatCount="indefinite"/></circle>
+<circle cx="435" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.6s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.6s" begin="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="631" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.6s" begin="4.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.6s" begin="4.3s" repeatCount="indefinite"/></circle>
+<circle cx="311" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="8.7s" begin="3.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="8.7s" begin="3.0s" repeatCount="indefinite"/></circle>
+<circle cx="687" cy="260" r="1.3" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="9.7s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9.7s" begin="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="620" cy="260" r="1.8" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="6.8s" begin="4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="6.8s" begin="4.8s" repeatCount="indefinite"/></circle>
+<circle cx="499" cy="260" r="1.3" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.5s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.5s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="601" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="9.4s" begin="1.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9.4s" begin="1.7s" repeatCount="indefinite"/></circle>
+</g>
+<text x="285" y="112" font-size="50" font-weight="700" fill="url(#title)" textLength="590" lengthAdjust="spacing" filter="url(#glow)">FRANK BWALYA<animate attributeName="opacity" values="1;1;1;0.82;1;1;0.9;1;1" dur="8s" repeatCount="indefinite"/></text>
+<path d="M287 128 H905" stroke="#c9a227" stroke-width="1.5"/><path d="M287 128 H400" stroke="#ffe27a" stroke-width="3"><animate attributeName="d" values="M287 128 H400;M790 128 H905;M287 128 H400" dur="7s" repeatCount="indefinite"/></path>
+<text x="287" y="160" font-size="15" letter-spacing="3" fill="#c9a227">SYSTEMS THINKER · BACKEND &amp; DISTRIBUTED SYSTEMS</text>
+<text x="287" y="188" font-size="12.5" letter-spacing="1" fill="#8fb9a0">Rust · Go · Python · Solidity — building structure before building features</text>
+<text x="287" y="212" font-size="11" letter-spacing="2" fill="#4f7a62">LUSAKA, ZAMBIA</text>
+<g stroke="#3ddc84" stroke-width="2" fill="none" opacity="0.8"><path d="M14 40 V14 H40"/><path d="M920 14 H946 V40"/><path d="M14 210 V236 H40"/><path d="M946 210 V236 H920"/></g>
+</svg>

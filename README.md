@@ -1,6 +1,10 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=58A6FF&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Distributed+Systems+Engineer+in+Training+%C2%B7+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
+  <img src="./assets/doom-banner.svg" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=3DDC84&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Distributed+Systems+Engineer+in+Training+%C2%B7+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -10,10 +14,10 @@
   <a href="mailto:bwalyafrank61@gmail.com">
     <img src="./assets/badges/email.svg" alt="Email"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=58A6FF&label=PROFILE+VIEWS"/>
+  <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=2EA043&label=PROFILE+VIEWS"/>
 </p>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ Mindset
 
@@ -27,7 +31,7 @@ My current trajectory: grow from a developer who builds applications into an eng
 surface-level dev  →  application builder  →  [current]  →  system architect
 ```
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ At a Glance
 
@@ -39,7 +43,7 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 | 🎓 **Studying** | BSc Software Engineering, ZCAS University (final year) |
 | 🔎 **Open to** | Backend / distributed-systems internships and open-source collaboration |
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ What I'm Actually Working On
 
@@ -71,7 +75,7 @@ Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
 [→ View Repository](https://github.com/b5119/nexus)  
 Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapper stitching, zero data lost).
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ### `02` — CDF SigTrace — Blockchain Accountability Framework *(Final-year project · prototype complete)*
 > *Making public money provable, not just trackable*
@@ -87,7 +91,7 @@ Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabri
 Focus: Civic-tech transparency under real infrastructure constraints.  
 🌐 [Live demo (demonstration data)](https://frontend-public-app.vercel.app) · 🔒 Source private — walkthrough available on request
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ Technical Stack
 
@@ -106,7 +110,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 </div>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ The Architecture
 
@@ -143,25 +147,25 @@ class FrankBwalya:
         return "Not 'how do I build this?' — but 'how should this be designed?'"
 ```
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats-b5119.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&include_all_commits=true&count_private=true&rank_icon=letters" width="495"/>
+  <img src="https://github-readme-stats-b5119.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8&include_all_commits=true&count_private=true&rank_icon=letters" width="495"/>
   &nbsp;
-  <img src="./assets/top-langs.svg" alt="Most used languages, weighted by commits across all repos I contribute to" width="300"/>
+  <img src="./assets/top-langs.svg" alt="Most used languages, weighted by commits across all repos I contribute to" width="380"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=b5119&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=58a6ff&dates=c9d1d9" width="750"/>
+  <img src="https://streak-stats.demolab.com?user=b5119&theme=github-dark-blue&hide_border=true&background=0b1410&ring=3ddc84&fire=c9a227&currStreakLabel=3ddc84&sideLabels=3ddc84&dates=8fb9a0" width="750"/>
 </p>
 
 <p align="center">
-  <img src="https://activity-graph.vercel.app/graph?username=b5119&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="750"/>
+  <img src="https://activity-graph.vercel.app/graph?username=b5119&bg_color=0b1410&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="750"/>
 </p>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ More of My Work
 
@@ -182,31 +186,31 @@ A full-stack **digital national identity platform** for Zambia, built by a team 
 Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL` · `Docker`  
 🔒 Private (hackathon repo) — walkthrough available on request
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 > Plus breadth across backend, blockchain, and mobile:
 
 <p align="center">
   <a href="https://github.com/b5119/flask-api-dashboard">
-    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=flask-api-dashboard&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=flask-api-dashboard&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8" />
   </a>
   <a href="https://github.com/b5119/chainba">
-    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=chainba&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=chainba&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/b5119/gpa_tracker">
-    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=gpa_tracker&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=gpa_tracker&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8" />
   </a>
   <a href="https://github.com/b5119/python-api-projects">
-    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=python-api-projects&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+    <img src="https://github-readme-stats-b5119.vercel.app/api/pin/?username=b5119&repo=python-api-projects&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8" />
   </a>
 </p>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ 2026 Engineering Growth & Collaboration
 
@@ -276,14 +280,14 @@ I am particularly interested in bridging **formal system design principles** wit
 
 Not just code that runs. **Systems that endure.**
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ Let's Connect
 
 📧 **Email:** bwalyafrank61@gmail.com  
 💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 ## ◈ The Quote I Keep Coming Back To
 
@@ -297,7 +301,7 @@ That isn't discouragement. It's the only honest description of what engineering 
   <img src="./assets/moba.svg" alt="MOBA minimap — pushing mid toward the Systems Architect nexus" width="860"/>
 </p>
 
----
+<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/b5119?label=Followers&style=social"/>
