@@ -89,18 +89,6 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 ---
 
-## ◈ Team & Client Work
-
-| Project | Role | What I shipped |
-|:--|:--|:--|
-| **BantuSave** — digitised Chilimba savings platform | Backend contributor, five-person team | 280+ commits and 54 merged PRs in a Go codebase (~45k lines): payout/disbursement engine, KYC decision and recheck-before-payout, reconciliation thresholds and exception workflow |
-| **Kwacha Yield** — Zambian T-Bill and Bond investor companion *(Vector Zero)* | Frontend lead | Expo / React Native app: PIN and security, securities, yield calculator, portfolio, alerts; 9 merged PRs, CI on every PR |
-| **ViewLock** — Android screen-privacy app *(Vector Zero)* | Android developer | Kotlin / Compose: screenshot detection, service lifecycle and privacy fixes, unified design system |
-
-🔒 Private repositories — walkthroughs available on request.
-
----
-
 ## ◈ Technical Stack
 
 <div align="center">
