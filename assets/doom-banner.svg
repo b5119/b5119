@@ -45,7 +45,10 @@
 <text x="285" y="115" font-size="56" font-weight="700" fill="url(#title)" textLength="600" lengthAdjust="spacing" filter="url(#glow)">FRANK BWALYA<animate attributeName="opacity" values="1;1;1;0.82;1;1;0.9;1;1" dur="8s" repeatCount="indefinite"/></text>
 <path d="M287 134 H905" stroke="#c9a227" stroke-width="1.5"/><path d="M287 134 H400" stroke="#ffe27a" stroke-width="3"><animate attributeName="d" values="M287 134 H400;M790 134 H905;M287 134 H400" dur="7s" repeatCount="indefinite"/></path>
 <text x="287" y="168" font-size="17" font-weight="600" letter-spacing="1.5" fill="#c9a227">SOFTWARE ENGINEER · SYSTEMS · BLOCKCHAIN · MOBILE</text>
-<text x="287" y="196" font-size="17" letter-spacing="1" fill="#a9d6bb">Rust · Go · Python · Dart · Solidity</text>
-<text x="287" y="224" font-size="13.5" letter-spacing="2" fill="#5f9a78">LUSAKA, ZAMBIA · ZCAS UNIVERSITY</text>
+<text x="287" y="199" font-size="19" font-weight="600" fill="#e6fff0" opacity="0">Systems Thinker<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.02;0.31;0.33;1" dur="12s" repeatCount="indefinite"/><animate attributeName="x" values="297;287;287" keyTimes="0;0.02;1" dur="12s" begin="0s" repeatCount="indefinite"/></text>
+<text x="287" y="199" font-size="19" font-weight="600" fill="#e6fff0" opacity="0">Distributed Systems Engineer in Training<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.333;0.353;0.643;0.663;1" dur="12s" repeatCount="indefinite"/><animate attributeName="x" values="297;287;287" keyTimes="0;0.02;1" dur="12s" begin="4s" repeatCount="indefinite"/></text>
+<text x="287" y="199" font-size="19" font-weight="600" fill="#e6fff0" opacity="0">Building structure before building features<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.667;0.687;1" dur="12s" repeatCount="indefinite"/><animate attributeName="x" values="297;287;287" keyTimes="0;0.02;1" dur="12s" begin="8s" repeatCount="indefinite"/></text>
+<rect x="0" y="0" width="0" height="0"/>
+<text x="287" y="226" font-size="13" letter-spacing="2" fill="#5f9a78">RUST · GO · PYTHON · DART · SOLIDITY  ·  LUSAKA, ZAMBIA</text>
 <g stroke="#3ddc84" stroke-width="2" fill="none" opacity="0.8"><path d="M14 40 V14 H40"/><path d="M920 14 H946 V40"/><path d="M14 210 V236 H40"/><path d="M946 210 V236 H920"/></g>
 </svg>
