@@ -18,9 +18,7 @@
 <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
 <circle r="86" fill="none" stroke="#3ddc84" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="3 9"/>
 <polygon points="0,-78 67.5,-39 67.5,39 0,78 -67.5,39 -67.5,-39" fill="none" stroke="#2ea043" stroke-width="1.6"/></g>
-<g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/>
-<polygon points="0,-56 48.5,28 -48.5,28" fill="none" stroke="#c9a227" stroke-width="1.5"/>
-<polygon points="0,56 48.5,-28 -48.5,-28" fill="none" stroke="#c9a227" stroke-opacity="0.6" stroke-width="1.2"/></g>
+<g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="30s" repeatCount="indefinite"/><circle r="46" fill="none" stroke="#c9a227" stroke-opacity="0.45" stroke-width="1.2" stroke-dasharray="2 6"/><circle cx="46.0" cy="0.0" r="3" fill="#c9a227"/><circle cx="23.0" cy="39.8" r="2" fill="#c9a227"/><circle cx="-23.0" cy="39.8" r="3" fill="#c9a227"/><circle cx="-46.0" cy="0.0" r="2" fill="#c9a227"/><circle cx="-23.0" cy="-39.8" r="3" fill="#c9a227"/><circle cx="23.0" cy="-39.8" r="2" fill="#c9a227"/></g>
 <circle r="30" fill="#07110c" stroke="#3ddc84" stroke-width="1.8"/>
 <text y="9" text-anchor="middle" font-size="26" font-weight="700" fill="#3ddc84" letter-spacing="1">FB<animate attributeName="opacity" values="1;1;0.75;1;1;0.9;1" dur="6s" repeatCount="indefinite"/></text>
 </g>

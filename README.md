@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/doom-banner.svg?v=5" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
+  <img src="./assets/doom-banner.svg?v=6" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
 </p>
 
 <p align="center">
@@ -19,9 +19,9 @@
 
 > Most developers build features. I'm learning to design **systems**.
 
-I'm a software engineering student at the stage where the interesting questions shift — from *"how do I make this work?"* to *"how do I make this hold?"* My focus is on **backend architecture**, **distributed application design**, and **blockchain infrastructure**. I'm not chasing breadth. I'm deliberately deepening.
+Anyone can assemble parts and get something that runs. The harder question, and the one I care about, is what makes the assembly *hold*: what keeps it coherent when connections drop, when data conflicts, and when the people depending on it can't see inside. I'm a software engineering student working toward that, with a focus on **backend architecture**, **distributed application design** and **blockchain infrastructure**. I'm not collecting tools. I'm deliberately deepening.
 
-My current trajectory: grow from a developer who builds applications into an engineer who designs the **structures** those applications run on.
+A system, like a person, is more than its components. It is the memory it keeps, the decisions it can explain and the promises it holds under pressure. My trajectory is to grow from a developer who builds applications into an engineer who designs the **structures** those applications run on.
 
 ```
 surface-level dev  →  application builder  →  [current]  →  system architect
@@ -41,8 +41,10 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ What I'm Actually Working On
 
+*These are two of the several things I'm working on at any one time. Alongside them sit team and client builds in private repositories, coursework and open-source contributions. These two are the ones I can show and walk through.*
+
 <p align="center">
-  <img src="./assets/card-nexus.svg?v=1" alt="Nexus — personal device mesh built in Rust" width="900"/>
+  <img src="./assets/card-nexus.svg?v=2" alt="Nexus — personal device mesh built in Rust" width="900"/>
 </p>
 
 #### `01` — Nexus — Personal Device Mesh *(Active · file mesh and screen streaming working; Android file access designed)*
@@ -76,7 +78,7 @@ Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapp
 <p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 <p align="center">
-  <img src="./assets/card-cdf.svg?v=1" alt="CDF SigTrace — blockchain-anchored public-spending checks, final-year project" width="900"/>
+  <img src="./assets/card-cdf.svg?v=2" alt="CDF SigTrace — blockchain-anchored public-spending checks, final-year project" width="900"/>
 </p>
 
 ### `02` — CDF SigTrace — Blockchain Accountability Framework *(Final-year project · prototype complete)*
