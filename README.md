@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/doom-banner.svg" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
+  <img src="./assets/doom-banner.svg?v=2" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <img src="https://komarev.com/ghpvc/?username=b5119&style=for-the-badge&color=2EA043&label=PROFILE+VIEWS"/>
 </p>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ Mindset
 
@@ -31,7 +31,7 @@ My current trajectory: grow from a developer who builds applications into an eng
 surface-level dev  →  application builder  →  [current]  →  system architect
 ```
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ At a Glance
 
@@ -60,7 +60,7 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 </table>
 </div>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ What I'm Actually Working On
 
@@ -92,7 +92,7 @@ Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
 [→ View Repository](https://github.com/b5119/nexus)  
 Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapper stitching, zero data lost).
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ### `02` — CDF SigTrace — Blockchain Accountability Framework *(Final-year project · prototype complete)*
 > *Making public money provable, not just trackable*
@@ -108,7 +108,7 @@ Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabri
 Focus: Civic-tech transparency under real infrastructure constraints.  
 🌐 [Live demo (demonstration data)](https://frontend-public-app.vercel.app) · 🔒 Source private — walkthrough available on request
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ Technical Stack
 
@@ -151,7 +151,7 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 </div>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ The Architecture
 
@@ -188,7 +188,7 @@ class FrankBwalya:
         return "Not 'how do I build this?' — but 'how should this be designed?'"
 ```
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ GitHub Statistics
 
@@ -197,7 +197,7 @@ class FrankBwalya:
 </p>
 
 <p align="center">
-  <img src="./assets/top-langs.svg" alt="Most used languages, weighted by commits across all repos I contribute to" width="380"/>
+  <img src="./assets/top-langs.svg?v=2" alt="Most used languages, weighted by commits across all repos I contribute to" width="380"/>
 </p>
 
 <p align="center">
@@ -208,7 +208,7 @@ class FrankBwalya:
   <img src="https://activity-graph.vercel.app/graph?username=b5119&bg_color=0b1410&color=8fb9a0&line=3ddc84&point=c9a227&area=true&hide_border=true" width="750"/>
 </p>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ More of My Work
 
@@ -229,9 +229,9 @@ A full-stack **digital national identity platform** for Zambia, built by a team 
 Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL` · `Docker`  
 🔒 Private (hackathon repo) — walkthrough available on request
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 > Plus breadth across backend, blockchain, and mobile:
 
@@ -253,7 +253,7 @@ Stack: `Next.js` · `Python` · `FastAPI` · `Hyperledger Fabric` · `PostgreSQL
   </a>
 </p>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ 2026 Engineering Growth & Collaboration
 
@@ -323,14 +323,14 @@ I am particularly interested in bridging **formal system design principles** wit
 
 Not just code that runs. **Systems that endure.**
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ Let's Connect
 
 📧 **Email:** bwalyafrank61@gmail.com  
 💼 **LinkedIn:** [Frank Bwalya](https://www.linkedin.com/in/frank-bwalya-64b124275)
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ The Quote I Keep Coming Back To
 
@@ -344,7 +344,7 @@ That isn't discouragement. It's the only honest description of what engineering 
   <img src="./assets/moba.svg" alt="MOBA minimap — pushing mid toward the Systems Architect nexus" width="860"/>
 </p>
 
-<p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
+<p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/b5119?label=Followers&style=social"/>
