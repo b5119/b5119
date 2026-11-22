@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 170" width="960" height="170" font-family="'Fira Code','JetBrains Mono',Consolas,monospace" role="img" aria-label="CDF SigTrace: blockchain-anchored public-spending checks, final-year project">
+<defs><linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050807"/><stop offset="1" stop-color="#0b1812"/></linearGradient>
+<linearGradient id="csw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3ddc84" stop-opacity="0"/><stop offset="0.5" stop-color="#3ddc84" stop-opacity="0.12"/><stop offset="1" stop-color="#3ddc84" stop-opacity="0"/></linearGradient>
+<filter id="cg" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cc"><rect x="1" y="1" width="958" height="168" rx="14"/></clipPath></defs>
+<rect x="1" y="1" width="958" height="168" rx="14" fill="url(#cbg)" stroke="#1f3a2b" stroke-width="1.5"/>
+<g clip-path="url(#cc)"><rect x="-240" y="0" width="240" height="170" fill="url(#csw)"><animate attributeName="x" values="-240;960" dur="8s" repeatCount="indefinite"/></rect></g>
+
+<g transform="translate(90 85)" filter="url(#cg)"><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/><polygon points="0,-52 45,-26 45,26 0,52 -45,26 -45,-26" fill="none" stroke="#2ea043" stroke-width="1.6"/></g><g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/><polygon points="0,-34 29,17 -29,17" fill="none" stroke="#c9a227" stroke-width="1.4"/></g><circle r="3.5" fill="#3ddc84"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle></g>
+<text x="170" y="62" font-size="30" font-weight="700" letter-spacing="4" fill="#3ddc84" filter="url(#cg)">CDF SIGTRACE</text>
+<text x="170" y="88" font-size="14" fill="#cfe8d8">Blockchain-anchored way to check Zambia’s public spending</text>
+<rect x="170" y="104" width="68" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="204" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">Python</text>
+<rect x="245.6" y="104" width="75" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="283" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">FastAPI</text>
+<rect x="328.79999999999995" y="104" width="83" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="370" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">Solidity</text>
+<rect x="419.59999999999997" y="104" width="68" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="453" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">Fabric</text>
+<rect x="495.19999999999993" y="104" width="75" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="533" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">Polygon</text>
+<rect x="578.3999999999999" y="104" width="60" height="22" rx="11" fill="#0f2418" stroke="#1f3a2b"/><text x="608" y="119" text-anchor="middle" font-size="11.5" fill="#a9d6bb">React</text>
+<text x="170" y="150" font-size="12" fill="#c9a227" letter-spacing="1">8 INTEGRITY CHECKS  ·  GHOST-PROJECT SIGNALS  ·  LIVE DEMO</text>
+<rect x="756" y="26" width="174" height="24" rx="12" fill="#3ddc84" fill-opacity="0.12" stroke="#3ddc84" stroke-opacity="0.6"/><text x="843.0" y="42" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.5" fill="#3ddc84">FINAL-YEAR PROJECT<animate attributeName="opacity" values="1;0.6;1" dur="3s" repeatCount="indefinite"/></text>
+</svg>

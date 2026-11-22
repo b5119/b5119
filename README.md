@@ -35,34 +35,19 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ At a Glance
 
-<div align="center">
-<table>
-<tr>
-<td nowrap>🏆 <b>Award</b></td>
-<td align="left">1st place, 2026 ZAMREN Student Hackathon (ZedLedger)</td>
-</tr>
-<tr>
-<td nowrap>🔧 <b>Shipped</b></td>
-<td align="left">100+ merged pull requests across 11 repositories; Flutter internship shipping offline-first features to production</td>
-</tr>
-<tr>
-<td nowrap>🦀 <b>Core stack</b></td>
-<td align="left">Rust · Go · Python · TypeScript · Dart · Solidity</td>
-</tr>
-<tr>
-<td nowrap>🎓 <b>Studying</b></td>
-<td align="left">BSc Software Engineering, ZCAS University (final year)</td>
-</tr>
-<tr>
-<td nowrap>🔎 <b>Open to</b></td>
-<td align="left">Software engineering internships across systems, backend, blockchain and mobile; open-source collaboration</td>
-</tr>
-</table>
-</div>
+<p align="center">
+  <img src="./assets/glance.svg?v=1" alt="1st place at the 2026 ZAMREN Student Hackathon · 100+ merged pull requests across 11 repositories · 100+ tests in Nexus · 17 architecture decision records" width="900"/>
+</p>
+
+🎓 **Studying** BSc Software Engineering, ZCAS University (final year) &nbsp;·&nbsp; 🔎 **Open to** software engineering internships across systems, backend, blockchain and mobile, and open-source collaboration
 
 <p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
 ## ◈ What I'm Actually Working On
+
+<p align="center">
+  <img src="./assets/card-nexus.svg?v=1" alt="Nexus — personal device mesh built in Rust" width="900"/>
+</p>
 
 #### `01` — Nexus — Personal Device Mesh *(Active · file mesh and screen streaming working; Android file access designed)*
 > *Paired devices, one authenticated mesh — filesystem, streaming, migration*
@@ -93,6 +78,10 @@ Stack: `Rust` · `Tokio` · `gRPC/tonic` · `FUSE` · `ffmpeg` · `PipeWire` ·
 Related: an ext4 partition-recovery case study (read-only diagnosis, device-mapper stitching, zero data lost).
 
 <p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
+
+<p align="center">
+  <img src="./assets/card-cdf.svg?v=1" alt="CDF SigTrace — blockchain-anchored public-spending checks, final-year project" width="900"/>
+</p>
 
 ### `02` — CDF SigTrace — Blockchain Accountability Framework *(Final-year project · prototype complete)*
 > *Making public money provable, not just trackable*
@@ -299,35 +288,23 @@ I am particularly interested in bridging **formal system design principles** wit
 <!-- Animated roadmap: a data packet travels the track through each milestone on a loop.
      Source: assets/roadmap.svg (hand-authored animated SVG) -->
 <p align="center">
-  <img src="./assets/roadmap.svg" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Engineer and Smart Contracts to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
+  <img src="./assets/roadmap.svg?v=2" alt="Engineering roadmap — a data packet travels from Application Builder through Backend Engineer and Smart Contracts to Distributed Systems Engineer (current) toward Systems Architect" width="860"/>
 </p>
-
-<div align="center">
-
-| Phase | Progress | Driving work | Evidence met |
-|:--|:--|:--|:--:|
-| **Application Builder** | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> | Flutter and Flask apps shipped, incl. an internship in production | 4 / 4 |
-| **Backend Engineer** | <img src="./assets/progress/86-2ea043.svg" alt="86% progress" height="14"/> | **BantuSave** (Go, 54 merged PRs) · FastAPI · OpenAPI · PostgreSQL | 6 / 7 |
-| **Smart Contracts & dApps** | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> | **ChainBa** · Solidity · OpenZeppelin · 23 tests · security review | 7 / 7 |
-| **Distributed Systems Engineer** | <img src="./assets/progress/75-c9a227.svg" alt="75% progress" height="14"/> 🔵 *current* | **Nexus** · gRPC · FUSE · mTLS · vector clocks | 6 / 8 |
-| **Systems Architect** | <img src="./assets/progress/38-8957e5.svg" alt="38% progress" height="14"/> 🎯 *horizon* | CDF SigTrace · ZedLedger · 17 ADRs | 3 / 8 |
-
-</div>
 
 <details>
 <summary><b>How these percentages are measured</b></summary>
 
 <br/>
 
-Each phase is a checklist of evidence I can point to in a repository. Progress is simply items met divided by items in the list, so the bars move only when a real milestone lands.
+Each phase is a checklist of evidence I can point to in a repository. Progress is items met divided by items in the list, so a bar only moves when a real milestone lands.
 
-| Phase | Met ✅ | Not yet ⬜ |
-|:--|:--|:--|
-| **Application Builder** | App shipped to production · REST API and dashboard · auth and persistence · automated tests | — |
-| **Backend Engineer** | Services with PostgreSQL migrations · contract-first OpenAPI · transactional payout and reconciliation logic · role-based access · CI on every PR · reviewing teammates' PRs | Running in production with real users |
-| **Smart Contracts & dApps** | Contracts (3) · 23-test suite · React dApp · Node/Express backend · OpenZeppelin patterns · deployment script · written security review (ChainBa is complete as a prototype) | Next level, outside ChainBa's scope: public-testnet deployment and an independent audit |
-| **Distributed Systems Engineer** | gRPC service boundaries · mTLS device identity · vector-clock conflict detection · FUSE virtual filesystem · real-hardware cross-device test · 17 ADRs | Cross-device replication and sync · fault-injection or consensus work |
-| **Systems Architect** | Written design decisions (ADRs) · multi-service design from requirements · privacy and compliance by design | Load-tested system · operated in production · led architecture for a team in production · formally reasoned consistency model · incident ownership |
+| Phase | Score | ✅ Met | ⬜ Not yet |
+|:--|:--:|:--|:--|
+| **01 · Application Builder** | **4 / 4** | App shipped to production (Skutopia) · REST API and dashboard · auth and persistence · automated tests | — |
+| **02 · Backend Engineer** | **7 / 7** | Services with PostgreSQL migrations · contract-first OpenAPI · transactional payout and reconciliation logic · role-based access · CI on every PR · reviewing teammates' PRs · backend function live in production (Supabase Edge Function, Skutopia) | — |
+| **03 · Smart Contracts & dApps** | **7 / 7** | Three contracts · 23-test suite · React dApp · Node/Express backend · OpenZeppelin patterns · deployment script · written security review | Next level, outside ChainBa's scope: public-testnet deployment and an independent audit |
+| **04 · Distributed Systems Engineer** | **6 / 8** | gRPC service boundaries · mTLS device identity · vector-clock conflict detection · FUSE virtual filesystem · real-hardware cross-device test · 17 ADRs | Cross-device replication and sync · fault-injection or consensus work |
+| **05 · Systems Architect** | **3 / 8** | Written design decisions (ADRs) · multi-service design from requirements · privacy and compliance by design | Load-tested system · operated in production · led architecture for a team in production · formally reasoned consistency model · incident ownership |
 
 </details>
 
