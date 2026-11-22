@@ -44,8 +44,8 @@
 </g>
 <text x="285" y="115" font-size="56" font-weight="700" fill="url(#title)" textLength="600" lengthAdjust="spacing" filter="url(#glow)">FRANK BWALYA<animate attributeName="opacity" values="1;1;1;0.82;1;1;0.9;1;1" dur="8s" repeatCount="indefinite"/></text>
 <path d="M287 134 H905" stroke="#c9a227" stroke-width="1.5"/><path d="M287 134 H400" stroke="#ffe27a" stroke-width="3"><animate attributeName="d" values="M287 134 H400;M790 134 H905;M287 134 H400" dur="7s" repeatCount="indefinite"/></path>
-<text x="287" y="168" font-size="18" font-weight="600" letter-spacing="2" fill="#c9a227">SYSTEMS THINKER · BACKEND &amp; DISTRIBUTED</text>
-<text x="287" y="196" font-size="17" letter-spacing="1" fill="#a9d6bb">Rust · Go · Python · Solidity</text>
+<text x="287" y="168" font-size="17" font-weight="600" letter-spacing="1.5" fill="#c9a227">SOFTWARE ENGINEER · SYSTEMS · BLOCKCHAIN · MOBILE</text>
+<text x="287" y="196" font-size="17" letter-spacing="1" fill="#a9d6bb">Rust · Go · Python · Dart · Solidity</text>
 <text x="287" y="224" font-size="13.5" letter-spacing="2" fill="#5f9a78">LUSAKA, ZAMBIA · ZCAS UNIVERSITY</text>
 <g stroke="#3ddc84" stroke-width="2" fill="none" opacity="0.8"><path d="M14 40 V14 H40"/><path d="M920 14 H946 V40"/><path d="M14 210 V236 H40"/><path d="M946 210 V236 H920"/></g>
 </svg>
