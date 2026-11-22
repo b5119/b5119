@@ -1,10 +1,10 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/doom-banner.svg?v=2" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
+  <img src="./assets/doom-banner.svg?v=3" alt="Frank Bwalya — Systems Thinker, Backend & Distributed Systems" width="900"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=3DDC84&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=1st+Place+%E2%80%94+2026+ZAMREN+Student+Hackathon;Rust+%C2%B7+Go+%C2%B7+Solidity+%C2%B7+Flutter;Open+to+backend+%26+distributed-systems+internships" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=3DDC84&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Building+Nexus+%E2%80%94+a+personal+device+mesh+in+Rust;Making+public+money+provable+%E2%80%94+CDF+SigTrace;Go+backends+%C2%B7+Rust+systems+%C2%B7+Solidity+contracts" alt="Typing SVG"/>
 </p>
 
 <p align="center">
