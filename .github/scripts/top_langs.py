@@ -140,12 +140,13 @@ def render(weights, colors):
         out.append(f'<rect x="{track_x}" y="{y + 5}" width="{track_w}" height="8" rx="4" fill="#13261b"/>')
         out.append(
             f'<rect x="{track_x}" y="{y + 5}" width="0" height="8" rx="4" fill="url(#bar)" filter="url(#glow)">'
-            f'<animate attributeName="width" values="0;{fill_w:.1f};{fill_w:.1f};0" keyTimes="0;0.14;0.9;1" '
-            f'dur="9s" begin="{delay}" repeatCount="indefinite" calcMode="spline" keySplines="0.2 0.8 0.2 1;0 0 1 1;0.4 0 1 1"/></rect>'
+            f'<animate attributeName="width" values="0;{fill_w:.1f};{fill_w:.1f}" keyTimes="0;0.14;1" '
+            f'dur="10s" begin="{delay}" repeatCount="indefinite" calcMode="spline" keySplines="0.2 0.8 0.2 1;0 0 1 1"/>'
+            f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.84;0.95;1" dur="10s" begin="{delay}" repeatCount="indefinite"/></rect>'
         )
         out.append(
             f'<text x="{width - 20}" y="{y + 12.5}" text-anchor="end" font-family="{font}" font-size="10.5" fill="#3ddc84" opacity="0">{pct:.1f}%'
-            f'<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.14;0.9;1" dur="9s" begin="{delay}" repeatCount="indefinite"/></text>'
+            f'<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.14;0.84;0.95;1" dur="10s" begin="{delay}" repeatCount="indefinite"/></text>'
         )
     out.append("</svg>")
     return "\n".join(out) + "\n"

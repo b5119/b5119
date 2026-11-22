@@ -42,10 +42,10 @@
 <circle cx="499" cy="260" r="1.3" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="5.5s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="5.5s" begin="1.8s" repeatCount="indefinite"/></circle>
 <circle cx="601" cy="260" r="1" fill="#3ddc84"><animate attributeName="cy" values="260;-10" dur="9.4s" begin="1.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.8;0" dur="9.4s" begin="1.7s" repeatCount="indefinite"/></circle>
 </g>
-<text x="285" y="112" font-size="50" font-weight="700" fill="url(#title)" textLength="590" lengthAdjust="spacing" filter="url(#glow)">FRANK BWALYA<animate attributeName="opacity" values="1;1;1;0.82;1;1;0.9;1;1" dur="8s" repeatCount="indefinite"/></text>
-<path d="M287 128 H905" stroke="#c9a227" stroke-width="1.5"/><path d="M287 128 H400" stroke="#ffe27a" stroke-width="3"><animate attributeName="d" values="M287 128 H400;M790 128 H905;M287 128 H400" dur="7s" repeatCount="indefinite"/></path>
-<text x="287" y="160" font-size="15" letter-spacing="3" fill="#c9a227">SYSTEMS THINKER · BACKEND &amp; DISTRIBUTED SYSTEMS</text>
-<text x="287" y="188" font-size="12.5" letter-spacing="1" fill="#8fb9a0">Rust · Go · Python · Solidity — building structure before building features</text>
-<text x="287" y="212" font-size="11" letter-spacing="2" fill="#4f7a62">LUSAKA, ZAMBIA</text>
+<text x="285" y="115" font-size="56" font-weight="700" fill="url(#title)" textLength="600" lengthAdjust="spacing" filter="url(#glow)">FRANK BWALYA<animate attributeName="opacity" values="1;1;1;0.82;1;1;0.9;1;1" dur="8s" repeatCount="indefinite"/></text>
+<path d="M287 134 H905" stroke="#c9a227" stroke-width="1.5"/><path d="M287 134 H400" stroke="#ffe27a" stroke-width="3"><animate attributeName="d" values="M287 134 H400;M790 134 H905;M287 134 H400" dur="7s" repeatCount="indefinite"/></path>
+<text x="287" y="168" font-size="18" font-weight="600" letter-spacing="2" fill="#c9a227">SYSTEMS THINKER · BACKEND &amp; DISTRIBUTED</text>
+<text x="287" y="196" font-size="17" letter-spacing="1" fill="#a9d6bb">Rust · Go · Python · Solidity</text>
+<text x="287" y="224" font-size="13.5" letter-spacing="2" fill="#5f9a78">LUSAKA, ZAMBIA · 1ST PLACE ZAMREN 2026</text>
 <g stroke="#3ddc84" stroke-width="2" fill="none" opacity="0.8"><path d="M14 40 V14 H40"/><path d="M920 14 H946 V40"/><path d="M14 210 V236 H40"/><path d="M946 210 V236 H920"/></g>
 </svg>

@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=3DDC84&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Frank+Bwalya+%E2%80%94+Systems+Thinker;Distributed+Systems+Engineer+in+Training+%C2%B7+Lusaka%2C+Zambia;Building+Structure+Before+Building+Features" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&color=3DDC84&background=FFFFFF00&center=true&vCenter=true&multiline=true&width=900&height=120&lines=1st+Place+%E2%80%94+2026+ZAMREN+Student+Hackathon;Rust+%C2%B7+Go+%C2%B7+Solidity+%C2%B7+Flutter;Open+to+backend+%26+distributed-systems+internships" alt="Typing SVG"/>
 </p>
 
 <p align="center">
@@ -35,13 +35,30 @@ surface-level dev  →  application builder  →  [current]  →  system archite
 
 ## ◈ At a Glance
 
-| | |
-|:--|:--|
-| 🏆 **Award** | 1st place, 2026 ZAMREN Student Hackathon (ZedLedger) |
-| 🔧 **Shipped** | 100+ merged pull requests across 11 repositories; Flutter internship shipping offline-first features to production |
-| 🦀 **Core stack** | Rust · Go · Python · TypeScript · Dart · Solidity |
-| 🎓 **Studying** | BSc Software Engineering, ZCAS University (final year) |
-| 🔎 **Open to** | Backend / distributed-systems internships and open-source collaboration |
+<div align="center">
+<table>
+<tr>
+<td nowrap>🏆 <b>Award</b></td>
+<td align="left">1st place, 2026 ZAMREN Student Hackathon (ZedLedger)</td>
+</tr>
+<tr>
+<td nowrap>🔧 <b>Shipped</b></td>
+<td align="left">100+ merged pull requests across 11 repositories; Flutter internship shipping offline-first features to production</td>
+</tr>
+<tr>
+<td nowrap>🦀 <b>Core stack</b></td>
+<td align="left">Rust · Go · Python · TypeScript · Dart · Solidity</td>
+</tr>
+<tr>
+<td nowrap>🎓 <b>Studying</b></td>
+<td align="left">BSc Software Engineering, ZCAS University (final year)</td>
+</tr>
+<tr>
+<td nowrap>🔎 <b>Open to</b></td>
+<td align="left">Backend / distributed-systems internships and open-source collaboration</td>
+</tr>
+</table>
+</div>
 
 <p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
 
@@ -97,16 +114,40 @@ Focus: Civic-tech transparency under real infrastructure constraints.
 
 <div align="center">
 
-| | |
-|:--|:--|
-| **Languages**<br/><sub>what I ship in</sub> | <img src="https://skillicons.dev/icons?i=rust,go,python,ts,js,dart,kotlin,solidity&theme=dark" alt="Rust, Go, Python, TypeScript, JavaScript, Dart, Kotlin, Solidity"/><br/><img src="https://skillicons.dev/icons?i=java,cs,php,bash,sql&theme=dark" alt="Java, C#, PHP, Bash, SQL"/> |
-| **Backend & APIs**<br/><sub>services and contracts</sub> | <img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,nodejs,dotnet,swagger&theme=dark" alt="FastAPI, Flask, Laravel, Node.js, .NET, Swagger"/><br/><img src="./assets/badges/go-chi.svg" alt="go-chi"/> <img src="./assets/badges/openapi.svg" alt="openapi"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/> |
-| **Systems**<br/><sub>low-level and distributed</sub> | <img src="./assets/badges/tokio.svg" alt="tokio"/> <img src="./assets/badges/fuse.svg" alt="fuse"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/> <img src="./assets/badges/tailscale.svg" alt="tailscale"/> <img src="./assets/badges/ssh.svg" alt="ssh"/> |
-| **Blockchain**<br/><sub>contracts and anchoring</sub> | <img src="https://skillicons.dev/icons?i=solidity,hardhat&theme=dark" alt="Solidity, Hardhat"/><br/><img src="./assets/badges/hyperledger-fabric.svg" alt="hyperledger-fabric"/> <img src="./assets/badges/polygon.svg" alt="polygon"/> <img src="./assets/badges/ipfs.svg" alt="ipfs"/> |
-| **Frontend & Mobile**<br/><sub>web and cross-platform</sub> | <img src="https://skillicons.dev/icons?i=flutter,dart,react,angular,kotlin,tailwind,bootstrap,vite&theme=dark" alt="Flutter, Dart, React, Angular, Kotlin, Tailwind, Bootstrap, Vite"/> |
-| **Data**<br/><sub>storage</sub> | <img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,firebase,supabase&theme=dark" alt="PostgreSQL, SQLite, MongoDB, Firebase, Supabase"/> |
-| **Infra & Tooling**<br/><sub>delivery and workflow</sub> | <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,ubuntu,git,neovim,vscode&theme=dark" alt="Docker, AWS, GitHub Actions, Linux, Ubuntu, Git, Neovim, VS Code"/> |
-| **Integrating in 2026**<br/><sub>actively learning</sub> | <img src="https://skillicons.dev/icons?i=kubernetes,kafka,graphql,redis&theme=dark" alt="Kubernetes, Kafka, GraphQL, Redis"/> |
+<table>
+<tr>
+<td align="left" nowrap><b>Languages</b><br/><sub>what I ship in</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=rust,go,python,ts,js,dart,kotlin,solidity&theme=dark" alt="Rust, Go, Python, TypeScript, JavaScript, Dart, Kotlin, Solidity"/><br/><img src="https://skillicons.dev/icons?i=java,cs,php,bash,sql&theme=dark" alt="Java, C#, PHP, Bash, SQL"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Backend & APIs</b><br/><sub>services and contracts</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=fastapi,flask,laravel,nodejs,dotnet,swagger&theme=dark" alt="FastAPI, Flask, Laravel, Node.js, .NET, Swagger"/><br/><img src="./assets/badges/go-chi.svg" alt="go-chi"/> <img src="./assets/badges/openapi.svg" alt="openapi"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Systems</b><br/><sub>low-level and distributed</sub></td>
+<td align="left"><img src="./assets/badges/tokio.svg" alt="tokio"/> <img src="./assets/badges/fuse.svg" alt="fuse"/> <img src="./assets/badges/grpc.svg" alt="grpc"/> <img src="./assets/badges/protobuf.svg" alt="protobuf"/> <img src="./assets/badges/tailscale.svg" alt="tailscale"/> <img src="./assets/badges/ssh.svg" alt="ssh"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Blockchain</b><br/><sub>contracts and anchoring</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=solidity,hardhat&theme=dark" alt="Solidity, Hardhat"/><br/><img src="./assets/badges/hyperledger-fabric.svg" alt="hyperledger-fabric"/> <img src="./assets/badges/polygon.svg" alt="polygon"/> <img src="./assets/badges/ipfs.svg" alt="ipfs"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Frontend & Mobile</b><br/><sub>web and cross-platform</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=flutter,dart,react,angular,kotlin,tailwind,bootstrap,vite&theme=dark" alt="Flutter, Dart, React, Angular, Kotlin, Tailwind, Bootstrap, Vite"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Data</b><br/><sub>storage</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=postgres,sqlite,mongodb,firebase,supabase&theme=dark" alt="PostgreSQL, SQLite, MongoDB, Firebase, Supabase"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Infra & Tooling</b><br/><sub>delivery and workflow</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,ubuntu,git,neovim,vscode&theme=dark" alt="Docker, AWS, GitHub Actions, Linux, Ubuntu, Git, Neovim, VS Code"/></td>
+</tr>
+<tr>
+<td align="left" nowrap><b>Integrating in 2026</b><br/><sub>actively learning</sub></td>
+<td align="left"><img src="https://skillicons.dev/icons?i=kubernetes,kafka,graphql,redis&theme=dark" alt="Kubernetes, Kafka, GraphQL, Redis"/></td>
+</tr>
+</table>
 
 </div>
 
@@ -153,16 +194,18 @@ class FrankBwalya:
 
 <p align="center">
   <img src="https://github-readme-stats-b5119.vercel.app/api?username=b5119&show_icons=true&theme=github_dark&hide_border=true&border_color=1f3a2b&bg_color=0b1410&title_color=3ddc84&icon_color=c9a227&text_color=cfe8d8&include_all_commits=true&count_private=true&rank_icon=letters" width="495"/>
-  &nbsp;
+</p>
+
+<p align="center">
   <img src="./assets/top-langs.svg" alt="Most used languages, weighted by commits across all repos I contribute to" width="380"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=b5119&theme=github-dark-blue&hide_border=true&background=0b1410&ring=3ddc84&fire=c9a227&currStreakLabel=3ddc84&sideLabels=3ddc84&dates=8fb9a0" width="750"/>
+  <img src="https://streak-stats.demolab.com?user=b5119&theme=github-dark-blue&hide_border=true&background=0b1410&ring=3ddc84&fire=c9a227&currStreakNum=cfe8d8&sideNums=cfe8d8&currStreakLabel=3ddc84&sideLabels=3ddc84&dates=8fb9a0" width="750"/>
 </p>
 
 <p align="center">
-  <img src="https://activity-graph.vercel.app/graph?username=b5119&bg_color=0b1410&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&hide_border=true" width="750"/>
+  <img src="https://activity-graph.vercel.app/graph?username=b5119&bg_color=0b1410&color=8fb9a0&line=3ddc84&point=c9a227&area=true&hide_border=true" width="750"/>
 </p>
 
 <p align="center"><img src="./assets/doom-divider.svg" width="860" alt=""/></p>
