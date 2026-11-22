@@ -19,7 +19,7 @@
 
 > Most developers build features. I'm learning to design **systems**.
 
-Anyone can assemble parts and get something that runs. The harder question, and the one I care about, is what makes the assembly *hold*: what keeps it coherent when connections drop, when data conflicts, and when the people depending on it can't see inside. I'm a software engineering student working toward that, with a focus on **backend architecture**, **distributed application design** and **blockchain infrastructure**. I'm not collecting tools. I'm deliberately deepening.
+Anyone can assemble parts and get something that runs. The harder question, and the one I care about, is what makes the assembly *hold*: what keeps it coherent when connections drop, when data conflicts, and when the people depending on it can't see inside. I'm a software engineering student working toward that, with a focus on **backend architecture**, **distributed application design** and **blockchain infrastructure**.
 
 A system, like a person, is more than its components. It is the memory it keeps, the decisions it can explain and the promises it holds under pressure. My trajectory is to grow from a developer who builds applications into an engineer who designs the **structures** those applications run on.
 
