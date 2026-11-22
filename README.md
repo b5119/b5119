@@ -308,7 +308,7 @@ I am particularly interested in bridging **formal system design principles** wit
 |:--|:--|:--|:--:|
 | **Application Builder** | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> | Flutter and Flask apps shipped, incl. an internship in production | 4 / 4 |
 | **Backend Engineer** | <img src="./assets/progress/86-2ea043.svg" alt="86% progress" height="14"/> | **BantuSave** (Go, 54 merged PRs) · FastAPI · OpenAPI · PostgreSQL | 6 / 7 |
-| **Smart Contracts & dApps** | <img src="./assets/progress/67-c9a227.svg" alt="67% progress" height="14"/> | **ChainBa** · Solidity · OpenZeppelin · 23 tests | 4 / 6 |
+| **Smart Contracts & dApps** | <img src="./assets/progress/100-2ea043.svg" alt="100% progress" height="14"/> | **ChainBa** · Solidity · OpenZeppelin · 23 tests · security review | 7 / 7 |
 | **Distributed Systems Engineer** | <img src="./assets/progress/75-c9a227.svg" alt="75% progress" height="14"/> 🔵 *current* | **Nexus** · gRPC · FUSE · mTLS · vector clocks | 6 / 8 |
 | **Systems Architect** | <img src="./assets/progress/38-8957e5.svg" alt="38% progress" height="14"/> 🎯 *horizon* | CDF SigTrace · ZedLedger · 17 ADRs | 3 / 8 |
 
@@ -325,7 +325,7 @@ Each phase is a checklist of evidence I can point to in a repository. Progress i
 |:--|:--|:--|
 | **Application Builder** | App shipped to production · REST API and dashboard · auth and persistence · automated tests | — |
 | **Backend Engineer** | Services with PostgreSQL migrations · contract-first OpenAPI · transactional payout and reconciliation logic · role-based access · CI on every PR · reviewing teammates' PRs | Running in production with real users |
-| **Smart Contracts & dApps** | Contracts written · 23-test suite · dApp front end · OpenZeppelin patterns | Public-testnet deployment · independent security audit or fuzzing |
+| **Smart Contracts & dApps** | Contracts (3) · 23-test suite · React dApp · Node/Express backend · OpenZeppelin patterns · deployment script · written security review (ChainBa is complete as a prototype) | Next level, outside ChainBa's scope: public-testnet deployment and an independent audit |
 | **Distributed Systems Engineer** | gRPC service boundaries · mTLS device identity · vector-clock conflict detection · FUSE virtual filesystem · real-hardware cross-device test · 17 ADRs | Cross-device replication and sync · fault-injection or consensus work |
 | **Systems Architect** | Written design decisions (ADRs) · multi-service design from requirements · privacy and compliance by design | Load-tested system · operated in production · led architecture for a team in production · formally reasoned consistency model · incident ownership |
 
