@@ -15,7 +15,7 @@
 
 <p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
-## ◈ Mindset
+## ◈ The Mindset
 
 > Most developers build features. I'm learning to design **systems**.
 
