@@ -93,7 +93,7 @@ A **blockchain-anchored accountability framework** for Zambia's Constituency Dev
 
 Stack: `Python` · `FastAPI` · `PostgreSQL` · `Solidity` · `Hyperledger Fabric` · `Polygon` · `React`  
 Focus: Civic-tech transparency under real infrastructure constraints.  
-🌐 [Live demo (demonstration data)](https://frontend-public-app.vercel.app) · 🔒 Source private — walkthrough available on request
+🌐 [Live demo (demonstration data)](https://cdf-backend-0ued.onrender.com/) · 🔒 Source private — walkthrough available on request
 
 <p align="center"><img src="./assets/doom-divider.svg?v=2" width="860" alt=""/></p>
 
